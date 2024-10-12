@@ -1,0 +1,194 @@
+[
+  {
+    "id": 1,
+    "slug": "no-poverty",
+    "title": "No Poverty",
+    "image": "/images/no-poverty.png",
+    "description": "End poverty in all its forms everywhere by ensuring equal access to economic resources and services.",
+    "charts": [
+      {
+        "title": "Global Poverty Rate",
+        "data": {
+          "years": [2010, 2015, 2020, 2025],
+          "values": [15, 12, 10, 8]
+        }
+      },
+      {
+        "title": "Poverty Rate by Region",
+        "data": {
+          "regions": ["Africa", "Asia", "Latin America", "Europe"],
+          "values": [40, 20, 15, 5]
+        }
+      }
+    ],
+    "government_initiatives": [
+      "The National Rural Livelihoods Mission (NRLM) aimed at increasing the income of rural households.",
+      "Pradhan Mantri Awas Yojana for affordable housing.",
+      "Direct Benefit Transfer (DBT) to improve welfare services."
+    ],
+    "individual_actions": [
+      "Donate to credible poverty alleviation programs.",
+      "Support local businesses to encourage economic growth in your community.",
+      "Volunteer at local shelters or organizations fighting poverty."
+    ],
+    "other_initiatives": [
+      {
+        "organization": "World Bank",
+        "description": "Provides financial and technical assistance to developing countries to reduce poverty."
+      },
+      {
+        "organization": "United Nations",
+        "description": "Global programs to eradicate extreme poverty by 2030."
+      }
+    ],
+    "solutions": [
+      "Empowering women through education and employment opportunities.",
+      "Investing in agriculture and rural development.",
+      "Ensuring equal access to resources and services, like healthcare and education."
+    ]
+  },
+  {
+    "id": 2,
+    "slug": "zero-hunger",
+    "title": "Zero Hunger",
+    "image": "/images/zero-hunger.png",
+    "description": "End hunger, achieve food security, improve nutrition, and promote sustainable agriculture.",
+    "charts": [
+      {
+        "title": "Global Malnutrition Rates",
+        "data": {
+          "years": [2010, 2015, 2020, 2025],
+          "values": [23, 18, 14, 10]
+        }
+      },
+      {
+        "title": "Food Insecurity by Region",
+        "data": {
+          "regions": ["Africa", "Asia", "Latin America", "Europe"],
+          "values": [35, 22, 17, 8]
+        }
+      }
+    ],
+    "government_initiatives": [
+      "The Midday Meal Scheme provides meals to school children.",
+      "National Food Security Act ensures food grains at subsidized prices.",
+      "Pradhan Mantri Krishi Sinchai Yojana to improve irrigation and ensure food production."
+    ],
+    "individual_actions": [
+      "Reduce food waste by only buying what you need.",
+      "Donate surplus food to food banks or shelters.",
+      "Support local farmers by buying locally sourced food."
+    ],
+    "other_initiatives": [
+      {
+        "organization": "World Food Programme",
+        "description": "Provides food assistance to countries facing extreme hunger."
+      },
+      {
+        "organization": "FAO",
+        "description": "Helps countries achieve food security and ensure good nutrition for all."
+      }
+    ],
+    "solutions": [
+      "Improving agricultural productivity through innovation and technology.",
+      "Ensuring sustainable food production systems.",
+      "Implementing social safety nets to protect vulnerable populations."
+    ]
+  },
+  {
+    "id": 3,
+    "slug": "good-health-and-well-being",
+    "title": "Good Health and Well-Being",
+    "image": "/images/good-health.png",
+    "description": "Ensure healthy lives and promote well-being for all at all ages.",
+    "charts": [
+      {
+        "title": "Global Life Expectancy",
+        "data": {
+          "years": [2010, 2015, 2020, 2025],
+          "values": [68, 70, 72, 74]
+        }
+      },
+      {
+        "title": "Mortality Rate by Region",
+        "data": {
+          "regions": ["Africa", "Asia", "Latin America", "Europe"],
+          "values": [50, 40, 25, 15]
+        }
+      }
+    ],
+    "government_initiatives": [
+      "Ayushman Bharat for universal health coverage.",
+      "The National Health Mission to improve maternal and child health services.",
+      "Mission Indradhanush to increase vaccination rates."
+    ],
+    "individual_actions": [
+      "Maintain a healthy diet and lifestyle.",
+      "Get regular health check-ups.",
+      "Advocate for public health programs in your community."
+    ],
+    "other_initiatives": [
+      {
+        "organization": "WHO",
+        "description": "Works to ensure global health standards are maintained."
+      },
+      {
+        "organization": "Doctors Without Borders",
+        "description": "Provides medical assistance in conflict zones and countries facing health crises."
+      }
+    ],
+    "solutions": [
+      "Strengthening healthcare infrastructure in developing regions.",
+      "Promoting preventive healthcare and vaccinations.",
+      "Addressing mental health and well-being as part of overall health strategies."
+    ]
+  },
+  {
+    "id": 4,
+    "slug": "quality-education",
+    "title": "Quality Education",
+    "image": "/images/quality-education.png",
+    "description": "Ensure inclusive and equitable quality education and promote lifelong learning opportunities for all.",
+    "charts": [
+      {
+        "title": "Global Literacy Rates",
+        "data": {
+          "years": [2010, 2015, 2020, 2025],
+          "values": [84, 86, 88, 90]
+        }
+      },
+      {
+        "title": "Access to Education by Region",
+        "data": {
+          "regions": ["Africa", "Asia", "Latin America", "Europe"],
+          "values": [60, 75, 85, 95]
+        }
+      }
+    ],
+    "government_initiatives": [
+      "Samagra Shiksha to improve the quality of education.",
+      "Digital India initiatives to enhance access to educational resources.",
+      "The Right to Education Act ensures free and compulsory education for children aged 6-14."
+    ],
+    "individual_actions": [
+      "Volunteer to tutor students from underprivileged backgrounds.",
+      "Support initiatives aimed at providing educational resources to underserved communities.",
+      "Advocate for inclusive education policies."
+    ],
+    "other_initiatives": [
+      {
+        "organization": "UNICEF",
+        "description": "Works to ensure all children have access to quality education."
+      },
+      {
+        "organization": "Global Partnership for Education",
+        "description": "Funds programs to improve education systems in developing countries."
+      }
+    ],
+    "solutions": [
+      "Providing affordable and accessible education for all.",
+      "Improving teacher training and resources.",
+      "Incorporating digital education tools and technologies."
+    ]
+  }
+]
