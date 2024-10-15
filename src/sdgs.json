@@ -190,53 +190,155 @@
       "Improving teacher training and resources.",
       "Incorporating digital education tools and technologies."
     ]
-  }
+  },
   {
     "id": 5,
-    "slug": "quality-education",
-    "title": "Quality Education",
-    "image": "/images/4.png",
-    "description": "Ensure inclusive and equitable quality education and promote lifelong learning opportunities for all.",
+    "slug": "gender-equality",
+    "title": "gender-equality",
+    "image": "/images/5.png",
+    "description": "Gender equality is about ensuring that all individuals, regardless of gender, have equal rights, opportunities, and respect.",
     "charts": [
       {
-        "title": "Global Literacy Rates",
+        "title": "some key statistics about gender equality over the years and projected into the future",
         "data": {
-          "years": [2010, 2015, 2020, 2025],
-          "values": [84, 86, 88, 90]
+          "years": [2015, 2018, 2020, 2025],
+          "values": [23, 25, 29, 20]
         }
       },
       {
-        "title": "Access to Education by Region",
+        "title": "Economic Participation and Opportunity",
         "data": {
-          "regions": ["Africa", "Asia", "Latin America", "Europe"],
-          "values": [60, 75, 85, 95]
+          "regions": ["North America","Europe","Asia-Pacific","Latin America"],
+          "values": [73, 72, 60, 58]
         }
       }
     ],
     "government_initiatives": [
-      "Samagra Shiksha to improve the quality of education.",
-      "Digital India initiatives to enhance access to educational resources.",
-      "The Right to Education Act ensures free and compulsory education for children aged 6-14."
+      "Beti Bachao Beti Padhao (BBBP): A campaign to address the declining child sex ratio and promote the education of girls.",
+      "Pradhan Mantri Ujjwala Yojana: Provides clean cooking fuel to women, reducing health hazards associated with traditional cooking methods.",
+      "Stand-Up India: A scheme to support women entrepreneurs by facilitating bank loans.",
+      "Swachh Bharat Mission: Improves sanitation facilities, benefiting women and girls."  
     ],
     "individual_actions": [
-      "Volunteer to tutor students from underprivileged backgrounds.",
-      "Support initiatives aimed at providing educational resources to underserved communities.",
-      "Advocate for inclusive education policies."
+      "Educate Yourself and Others: Understand gender issues and share that knowledge.",
+      "Challenge Gender Stereotypes: Speak up against stereotypes and biases.",
+      "Vote and Advocate: Support policies and leaders who promote gender equality."
     ],
     "other_initiatives": [
       {
-        "organization": "UNICEF",
-        "description": "Works to ensure all children have access to quality education."
+        "organization": "UN Women",
+        "description": "Focuses on women's leadership, economic security, ending violence against women, and peacebuilding."
       },
       {
-        "organization": "Global Partnership for Education",
-        "description": "Funds programs to improve education systems in developing countries."
+        "organization": "INSEAD’s Gender Initiative",
+        "description": "Researches and promotes gender equality in business and society."
       }
     ],
     "solutions": [
-      "Providing affordable and accessible education for all.",
-      "Improving teacher training and resources.",
-      "Incorporating digital education tools and technologies."
+      " Ensure women and men have equal opportunities in education and employment.",
+      "Advocate for laws that support gender equality, such as equal pay legislation and anti-discrimination policies.",
+      "Encourage workplaces to adopt flexible work arrangements that support both men and women in balancing work and personal responsibilities."
+    ]
+  },
+  {
+    "id": 6,
+    "slug": "Clean water and sanitation",
+    "title": "Clean water and sanitation",
+    "image": "/images/6.png",
+    "description": "Clean water and sanitation mean ensuring everyone has access to safe drinking water and adequate sanitation facilities to promote health and prevent diseases.",
+    "charts": [
+      {
+        "title": "global progress in increasing access to clean water.",
+        "data": {
+          "years": [2000, 2020, 2023, 2030],
+          "values": [79, 90, 92, 81]
+        }
+      },
+      {
+        "title": "Access to sanitation",
+        "data": {
+          "years": [2000, 2020, 2023, 2030],
+          "values": [58, 74, 76, 67]
+        }
+      },
+      {
+       "title": "Regional Data on Clean water(Approx same as sanitation)",
+        "data": {
+          "region": ["North-America","Europe","Central-Asia","South-Asia"],
+          "values": [99, 98, 95, 80] 
+        }
+      }
+    ],
+    "government_initiatives": [
+      "Swachh Bharat Mission (Gramin): Launched in 2014, this mission aimed to make India Open Defecation Free (ODF) by constructing over 100 million individual household toilets.",
+      "Jal Jeevan Mission: Aims to provide safe and adequate drinking water through individual household tap connections by 2024."
+    ],
+    "individual_actions": [
+      "Conserve Water: Be mindful of your water usage. Fix leaks, take shorter showers,and use water-efficient fixtures.",
+      "Practice Good Hygiene: Adopt and promote proper handwashing and sanitation practices.",
+      "Reduce Pollution: Properly dispose of waste and avoid using harmful chemicals that can contaminate water sources."
+    ],
+    "other_initiatives": [
+      {
+        "organization": "World Health Organization (WHO)",
+        "description": "Provides guidelines and support for water safety and sanitation practices globally."
+      },
+      {
+        "organization": "UNICEF's WASH Programs",
+        "description": "it works globally to provide safe water, sanitation, and hygiene (WASH) services, especially in schools and communities."
+      }
+    ],
+    "solutions": [
+      " Improve and build water supply and sanitation systems.",
+      "Educate communities on hygiene practices and water conservation.",
+      "Use technology to monitor water quality and reduce wastage."
+    ]
+  },
+  {
+    "id": 7,
+    "slug": "Affordable and clean energy",
+    "title": "Affordable and clean energy",
+    "image": "/images/7.png",
+    "description": "Affordable and clean energy ensures everyone has access to sustainable, cost-effective power while protecting the environment.",
+    "charts": [
+      {
+        "title": "global progress in increasing access to clean water.",
+        "data": {
+          "years": [2015, 2020, 2023, 2030],
+          "values": [88, 90, 92, 94]
+        }
+      },
+      {
+       "title": "Regional Data on Clean water(Approx same as sanitation)",
+        "data": {
+          "region": ["North-America","Europe","Central-Asia","South-Asia"],
+          "values": [99, 98, 95, 80] 
+        }
+      }
+    ],
+    "government_initiatives": [
+      "National Water Mission: Part of India's National Action Plan on Climate Change, focusing on water conservation, minimizing wastage, and ensuring equitable distribution.",
+      "Jal Jeevan Mission: Aims to provide safe and adequate drinking water through individual household tap connections by 2024."
+    ],
+    "individual_actions": [
+      "Reduce Energy Consumption: Turn off lights, unplug devices when not in use, and opt for energy-efficient appliances.",
+      "Use Public Transport or Carpool: Reduce your carbon footprint by choosing sustainable transportation options.",
+      "Invest in Green Technologies: Support businesses and innovations that focus on clean energy."
+    ],
+    "other_initiatives": [
+      {
+        "organization": "The Global Water Partnership (GWP)",
+        "description": "A network of organizations and individuals working to promote sustainable water management."
+      },
+      {
+        "organization": "Sustainable Sanitation Alliance (SuSanA)",
+        "description": "Promotes sustainable sanitation solutions worldwide."
+      }
+    ],
+    "solutions": [
+      "Governments, businesses, and individuals should invest in solar, wind, hydro, and geothermal energy sources.",
+      "Upgrade buildings, appliances, and industrial processes to be more energy-efficient.",
+      "Implement smart grid technology to efficiently distribute and manage energy."
     ]
   }
 ]
