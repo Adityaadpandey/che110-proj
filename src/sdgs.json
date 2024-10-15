@@ -191,4 +191,52 @@
       "Incorporating digital education tools and technologies."
     ]
   }
+  {
+    "id": 5,
+    "slug": "quality-education",
+    "title": "Quality Education",
+    "image": "/images/4.png",
+    "description": "Ensure inclusive and equitable quality education and promote lifelong learning opportunities for all.",
+    "charts": [
+      {
+        "title": "Global Literacy Rates",
+        "data": {
+          "years": [2010, 2015, 2020, 2025],
+          "values": [84, 86, 88, 90]
+        }
+      },
+      {
+        "title": "Access to Education by Region",
+        "data": {
+          "regions": ["Africa", "Asia", "Latin America", "Europe"],
+          "values": [60, 75, 85, 95]
+        }
+      }
+    ],
+    "government_initiatives": [
+      "Samagra Shiksha to improve the quality of education.",
+      "Digital India initiatives to enhance access to educational resources.",
+      "The Right to Education Act ensures free and compulsory education for children aged 6-14."
+    ],
+    "individual_actions": [
+      "Volunteer to tutor students from underprivileged backgrounds.",
+      "Support initiatives aimed at providing educational resources to underserved communities.",
+      "Advocate for inclusive education policies."
+    ],
+    "other_initiatives": [
+      {
+        "organization": "UNICEF",
+        "description": "Works to ensure all children have access to quality education."
+      },
+      {
+        "organization": "Global Partnership for Education",
+        "description": "Funds programs to improve education systems in developing countries."
+      }
+    ],
+    "solutions": [
+      "Providing affordable and accessible education for all.",
+      "Improving teacher training and resources.",
+      "Incorporating digital education tools and technologies."
+    ]
+  }
 ]
