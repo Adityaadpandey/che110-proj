@@ -3,7 +3,7 @@
     "id": 1,
     "slug": "no-poverty",
     "title": "No Poverty",
-    "image": "/images/no-poverty.png",
+    "image": "/images/1.png",
     "description": "End poverty in all its forms everywhere by ensuring equal access to economic resources and services.",
     "charts": [
       {
@@ -51,7 +51,7 @@
     "id": 2,
     "slug": "zero-hunger",
     "title": "Zero Hunger",
-    "image": "/images/zero-hunger.png",
+    "image": "/images/2.png",
     "description": "End hunger, achieve food security, improve nutrition, and promote sustainable agriculture.",
     "charts": [
       {
@@ -99,7 +99,7 @@
     "id": 3,
     "slug": "good-health-and-well-being",
     "title": "Good Health and Well-Being",
-    "image": "/images/good-health.png",
+    "image": "/images/3.png",
     "description": "Ensure healthy lives and promote well-being for all at all ages.",
     "charts": [
       {
@@ -147,7 +147,7 @@
     "id": 4,
     "slug": "quality-education",
     "title": "Quality Education",
-    "image": "/images/quality-education.png",
+    "image": "/images/4.png",
     "description": "Ensure inclusive and equitable quality education and promote lifelong learning opportunities for all.",
     "charts": [
       {
