@@ -262,12 +262,20 @@
         }
       },
       {
-       "title": "Regional Data on Clean water(Approx same as sanitation)",
+       "title": "Regional Data on Clean water",
         "data": {
-          "region": ["North-America","Europe","Central-Asia","South-Asia"],
+          "regions": ["North-America","Europe","Central-Asia","South-Asia"],
           "values": [99, 98, 95, 80] 
         }
-      }
+      },
+      {
+        "title": "Regional Data on sanitation",
+         "data": {
+           "regions": ["North-America","Europe","Central-Asia","South-Asia"],
+           "values": [99, 98, 93, 75] 
+         }
+       }
+
     ],
     "government_initiatives": [
       "Swachh Bharat Mission (Gramin): Launched in 2014, this mission aimed to make India Open Defecation Free (ODF) by constructing over 100 million individual household toilets.",
@@ -302,16 +310,541 @@
     "description": "Affordable and clean energy ensures everyone has access to sustainable, cost-effective power while protecting the environment.",
     "charts": [
       {
-        "title": "global progress in increasing access to clean water.",
+        "title": "Global Data on Affordable and Clean Energy.",
         "data": {
           "years": [2015, 2020, 2023, 2030],
           "values": [88, 90, 92, 94]
         }
       },
       {
-       "title": "Regional Data on Clean water(Approx same as sanitation)",
+       "title": "Regional Data on Affordable and Clean Energy",
         "data": {
-          "region": ["North-America","Europe","Central-Asia","South-Asia"],
+          "regions": ["North-America","Europe","Central-Asia","South-Asia"],
+          "values": [99, 98, 95, 80] 
+        }
+      }
+    ],
+    "government_initiatives": [
+      "National Water Mission: Part of India's National Action Plan on Climate Change, focusing on water conservation, minimizing wastage, and ensuring equitable distribution.",
+      "Jal Jeevan Mission: Aims to provide safe and adequate drinking water through individual household tap connections by 2024."
+    ],
+    "individual_actions": [
+      "Reduce Energy Consumption: Turn off lights, unplug devices when not in use, and opt for energy-efficient appliances.",
+      "Use Public Transport or Carpool: Reduce your carbon footprint by choosing sustainable transportation options.",
+      "Invest in Green Technologies: Support businesses and innovations that focus on clean energy."
+    ],
+    "other_initiatives": [
+      {
+        "organization": "The Global Water Partnership (GWP)",
+        "description": "A network of organizations and individuals working to promote sustainable water management."
+      },
+      {
+        "organization": "Sustainable Sanitation Alliance (SuSanA)",
+        "description": "Promotes sustainable sanitation solutions worldwide."
+      }
+    ],
+    "solutions": [
+      "Governments, businesses, and individuals should invest in solar, wind, hydro, and geothermal energy sources.",
+      "Upgrade buildings, appliances, and industrial processes to be more energy-efficient.",
+      "Implement smart grid technology to efficiently distribute and manage energy."
+    ]
+  },
+  {
+    "id": 8,
+    "slug": "Decent Work And Economic Growth",
+    "title": "Decent Work And Economic Growth",
+    "image": "/images/8.png",
+    "description": "Decent work and economic growth mean ensuring everyone has access to fair employment opportunities that drive sustainable economic progress.",
+    "charts": [
+      {
+        "title": "Global Data on Decent Work and Economic Growth(GDP).",
+        "data": {
+          "years": [2010, 2015, 2020, 2030],
+          "values": [4.3, 3.4, -3.5, 3.5]
+        }
+      },
+      {
+        "title": "Global Data on Decent Work and Economic Growth(Employment Rate).",
+        "data": {
+          "years": [2010, 2015, 2020, 2030],
+          "values": [60.2, 61.0, 59.7, 62.0]
+        }
+      },
+      {
+        "title": "Global Data on Decent Work and Economic Growth(Unemployement Rate).",
+        "data": {
+          "years": [2010, 2015, 2020, 2030],
+          "values": [13.0, 13.1, 13.8, 11.8]
+        }
+      },
+      {
+       "title": "Regional Data on Decent Work and Economis Growth(GDP).",
+        "data": {
+          "regions": ["North-America","Europe","Central-Asia","South-Asia"],
+          "values": [2.5, 1.8, 3.0, 5.0] 
+        }
+      },
+      {
+        "title": "Regional Data on Decent Work and Economis Growth(Employement).",
+         "data": {
+           "regions": ["North-America","Europe","Central-Asia","South-Asia"],
+           "values": [67.0, 65.0, 63.0, 55.0] 
+         }
+       },
+       {
+        "title": "Regional Data on Decent Work and Economis Growth(Youth Unemployment).",
+         "data": {
+           "regions": ["North-America","Europe","Central-Asia","South-Asia"],
+           "values": [10.0, 11.5, 12.0, 18.0] 
+         }
+       }
+    ],
+    "government_initiatives": [
+      "Atmanirbhar Bharat Rojgar Yojana (ABRY): Launched in 2020, this scheme aims to provide employment opportunities and support businesses affected by the COVID-19 pandemic.",
+      "Mahatma Gandhi National Rural Employment Guarantee Act (MGNREGA): Provides at least 100 days of wage employment in a financial year to every rural household whose adult members volunteer to do unskilled manual work."
+    ],
+    "individual_actions": [
+      "Support Local Businesses: Buy from small and local businesses to boost the economy.",
+      "Invest in Education: Enhance your skills and encourage others to pursue education and training.",
+      "Stay Informed: Educate yourself about the issues affecting workers and economies, and share that knowledge."
+    ],
+    "other_initiatives": [
+      {
+        "organization": "International Labour Organization (ILO)",
+        "description": "Future of Work Initiative: Examines the changing nature of work and proposes solutions to ensure decent work for all."
+      },
+      {
+        "organization": "G20",
+        "description": "Global Partnership for Financial Inclusion (GPFI): Works to improve access to finance for small and medium-sized enterprises (SMEs), which are crucial for job creation."
+      }
+    ],
+    "solutions": [
+      "Create job opportunities for underrepresented groups, including women, youth, and persons with disabilities.",
+      "Invest in education and training programs to improve workforce skills.",
+      "Ensure access to healthcare, unemployment benefits, and pensions."
+    ]
+  },
+  {
+    "id": 9,
+    "slug": "INDUSTRY,INNOVATION,INFRASTRUCTURE",
+    "title": "INDUSTRY,INNOVATION,INFRASTRUCTURE",
+    "image": "/images/9.png",
+    "description": "Industry, innovation, and infrastructure drive sustainable economic growth and resilience by fostering modern industries, technological advancements, and robust infrastructure systems.",
+    "charts": [
+      {
+        "title": "Global Data on Industry, Innovation, and Infrastructure(Industrial Production Growth).",
+        "data": {
+          "years": [2015, 2020, 2023, 2030],
+          "values": [3.5, -2.0, 4.0, 4.5]
+        }
+      },
+      {
+        "title": "Global Data on Industry, Innovation, and Infrastructure(Research and Development Expenditure).",
+        "data": {
+          "years": [2015, 2020, 2023, 2030],
+          "values": [2.2, 2.5, 2.7, 3.0]
+        }
+      },
+      {
+        "title": "Global Data on Industry, Innovation, and Infrastructure(Access to infrastrcture).",
+        "data": {
+          "years": [2015, 2020, 2023, 2030],
+          "values": [72, 73, 75, 78]
+        }
+      },
+      {
+       "title": "Regional Data on Industry, Innovation, and Infrastructure(Industrial Production Growth).",
+        "data": {
+          "regions": ["North-America","Europe","Central-Asia","South-Asia"],
+          "values": [3.0, 2,5, 4.0, 6.0] 
+        }
+      },
+      {
+        "title": "Regional Data on Industry, Innovation, and Infrastructure(Research and Development Expenditure).",
+         "data": {
+           "regions": ["North-America","Europe","Central-Asia","South-Asia"],
+           "values": [2.8, 2.6, 1.5, 0,5] 
+         }
+       },{
+        "title": "Regional Data on Industry, Innovation, and Infrastructure(Access to infrastrcture).",
+         "data": {
+           "regions": ["North-America","Europe","Central-Asia","South-Asia"],
+           "values": [80, 78, 70, 60] 
+         }
+       }
+    ],
+    "government_initiatives": [
+      "Make in India: Launched to facilitate investment, foster innovation, enhance skill development, protect intellectual property, and build best-in-class manufacturing infrastructure.",
+      "Pandit Deendayal Upadhyay Shramev Jayate Karyakram: Focuses on improving the working conditions and welfare of workers."
+    ],
+    "individual_actions": [
+      "Support Local Businesses: Buy locally-made products to boost local industries.",
+      "Educate Yourself and Others: Learn about the importance of infrastructure and innovation, and spread that knowledge.",
+      "Support STEM Education: Encourage and support education in science, technology, engineering, and mathematics."
+    ],
+    "other_initiatives": [
+      {
+        "organization": "Public-Private Partnerships",
+        "description": "Fostering partnerships between government and private sector to undertake large-scale infrastructure projects and drive economic growth."
+      },
+      {
+        "organization": "Global Partnership for Sustainable Development",
+        "description": "Collaborating with international organizations to share knowledge, resources, and technology for sustainable development."
+      }
+    ],
+    "solutions": [
+      "Develop and upgrade infrastructure, including transportation, energy, and ICT, to enhance connectivity and promote sustainable development.",
+      " Increase funding for R&D to drive technological advancements and support innovative solutions.",
+      "Provide financial support and incentives for startups and businesses investing in innovative solutions."
+    ]
+  },
+  {
+    "id": 10,
+    "slug": "Affordable and clean energy",
+    "title": "Affordable and clean energy",
+    "image": "/images/10.png",
+    "description": "Affordable and clean energy ensures everyone has access to sustainable, cost-effective power while protecting the environment.",
+    "charts": [
+      {
+        "title": "Global Data on Affordable and Clean Energy.",
+        "data": {
+          "years": [2015, 2020, 2023, 2030],
+          "values": [88, 90, 92, 94]
+        }
+      },
+      {
+       "title": "Regional Data on Affordable and Clean Energy",
+        "data": {
+          "regions": ["North-America","Europe","Central-Asia","South-Asia"],
+          "values": [99, 98, 95, 80] 
+        }
+      }
+    ],
+    "government_initiatives": [
+      "National Water Mission: Part of India's National Action Plan on Climate Change, focusing on water conservation, minimizing wastage, and ensuring equitable distribution.",
+      "Jal Jeevan Mission: Aims to provide safe and adequate drinking water through individual household tap connections by 2024."
+    ],
+    "individual_actions": [
+      "Reduce Energy Consumption: Turn off lights, unplug devices when not in use, and opt for energy-efficient appliances.",
+      "Use Public Transport or Carpool: Reduce your carbon footprint by choosing sustainable transportation options.",
+      "Invest in Green Technologies: Support businesses and innovations that focus on clean energy."
+    ],
+    "other_initiatives": [
+      {
+        "organization": "The Global Water Partnership (GWP)",
+        "description": "A network of organizations and individuals working to promote sustainable water management."
+      },
+      {
+        "organization": "Sustainable Sanitation Alliance (SuSanA)",
+        "description": "Promotes sustainable sanitation solutions worldwide."
+      }
+    ],
+    "solutions": [
+      "Governments, businesses, and individuals should invest in solar, wind, hydro, and geothermal energy sources.",
+      "Upgrade buildings, appliances, and industrial processes to be more energy-efficient.",
+      "Implement smart grid technology to efficiently distribute and manage energy."
+    ]
+  },
+  {
+    "id": 11,
+    "slug": "Affordable and clean energy",
+    "title": "Affordable and clean energy",
+    "image": "/images/11.png",
+    "description": "Affordable and clean energy ensures everyone has access to sustainable, cost-effective power while protecting the environment.",
+    "charts": [
+      {
+        "title": "Global Data on Affordable and Clean Energy.",
+        "data": {
+          "years": [2015, 2020, 2023, 2030],
+          "values": [88, 90, 92, 94]
+        }
+      },
+      {
+       "title": "Regional Data on Affordable and Clean Energy",
+        "data": {
+          "regions": ["North-America","Europe","Central-Asia","South-Asia"],
+          "values": [99, 98, 95, 80] 
+        }
+      }
+    ],
+    "government_initiatives": [
+      "National Water Mission: Part of India's National Action Plan on Climate Change, focusing on water conservation, minimizing wastage, and ensuring equitable distribution.",
+      "Jal Jeevan Mission: Aims to provide safe and adequate drinking water through individual household tap connections by 2024."
+    ],
+    "individual_actions": [
+      "Reduce Energy Consumption: Turn off lights, unplug devices when not in use, and opt for energy-efficient appliances.",
+      "Use Public Transport or Carpool: Reduce your carbon footprint by choosing sustainable transportation options.",
+      "Invest in Green Technologies: Support businesses and innovations that focus on clean energy."
+    ],
+    "other_initiatives": [
+      {
+        "organization": "The Global Water Partnership (GWP)",
+        "description": "A network of organizations and individuals working to promote sustainable water management."
+      },
+      {
+        "organization": "Sustainable Sanitation Alliance (SuSanA)",
+        "description": "Promotes sustainable sanitation solutions worldwide."
+      }
+    ],
+    "solutions": [
+      "Governments, businesses, and individuals should invest in solar, wind, hydro, and geothermal energy sources.",
+      "Upgrade buildings, appliances, and industrial processes to be more energy-efficient.",
+      "Implement smart grid technology to efficiently distribute and manage energy."
+    ]
+  },
+  {
+    "id": 12,
+    "slug": "Affordable and clean energy",
+    "title": "Affordable and clean energy",
+    "image": "/images/12.png",
+    "description": "Affordable and clean energy ensures everyone has access to sustainable, cost-effective power while protecting the environment.",
+    "charts": [
+      {
+        "title": "Global Data on Affordable and Clean Energy.",
+        "data": {
+          "years": [2015, 2020, 2023, 2030],
+          "values": [88, 90, 92, 94]
+        }
+      },
+      {
+       "title": "Regional Data on Affordable and Clean Energy",
+        "data": {
+          "regions": ["North-America","Europe","Central-Asia","South-Asia"],
+          "values": [99, 98, 95, 80] 
+        }
+      }
+    ],
+    "government_initiatives": [
+      "National Water Mission: Part of India's National Action Plan on Climate Change, focusing on water conservation, minimizing wastage, and ensuring equitable distribution.",
+      "Jal Jeevan Mission: Aims to provide safe and adequate drinking water through individual household tap connections by 2024."
+    ],
+    "individual_actions": [
+      "Reduce Energy Consumption: Turn off lights, unplug devices when not in use, and opt for energy-efficient appliances.",
+      "Use Public Transport or Carpool: Reduce your carbon footprint by choosing sustainable transportation options.",
+      "Invest in Green Technologies: Support businesses and innovations that focus on clean energy."
+    ],
+    "other_initiatives": [
+      {
+        "organization": "The Global Water Partnership (GWP)",
+        "description": "A network of organizations and individuals working to promote sustainable water management."
+      },
+      {
+        "organization": "Sustainable Sanitation Alliance (SuSanA)",
+        "description": "Promotes sustainable sanitation solutions worldwide."
+      }
+    ],
+    "solutions": [
+      "Governments, businesses, and individuals should invest in solar, wind, hydro, and geothermal energy sources.",
+      "Upgrade buildings, appliances, and industrial processes to be more energy-efficient.",
+      "Implement smart grid technology to efficiently distribute and manage energy."
+    ]
+  },
+  {
+    "id": 13,
+    "slug": "Affordable and clean energy",
+    "title": "Affordable and clean energy",
+    "image": "/images/13.png",
+    "description": "Affordable and clean energy ensures everyone has access to sustainable, cost-effective power while protecting the environment.",
+    "charts": [
+      {
+        "title": "Global Data on Affordable and Clean Energy.",
+        "data": {
+          "years": [2015, 2020, 2023, 2030],
+          "values": [88, 90, 92, 94]
+        }
+      },
+      {
+       "title": "Regional Data on Affordable and Clean Energy",
+        "data": {
+          "regions": ["North-America","Europe","Central-Asia","South-Asia"],
+          "values": [99, 98, 95, 80] 
+        }
+      }
+    ],
+    "government_initiatives": [
+      "National Water Mission: Part of India's National Action Plan on Climate Change, focusing on water conservation, minimizing wastage, and ensuring equitable distribution.",
+      "Jal Jeevan Mission: Aims to provide safe and adequate drinking water through individual household tap connections by 2024."
+    ],
+    "individual_actions": [
+      "Reduce Energy Consumption: Turn off lights, unplug devices when not in use, and opt for energy-efficient appliances.",
+      "Use Public Transport or Carpool: Reduce your carbon footprint by choosing sustainable transportation options.",
+      "Invest in Green Technologies: Support businesses and innovations that focus on clean energy."
+    ],
+    "other_initiatives": [
+      {
+        "organization": "The Global Water Partnership (GWP)",
+        "description": "A network of organizations and individuals working to promote sustainable water management."
+      },
+      {
+        "organization": "Sustainable Sanitation Alliance (SuSanA)",
+        "description": "Promotes sustainable sanitation solutions worldwide."
+      }
+    ],
+    "solutions": [
+      "Governments, businesses, and individuals should invest in solar, wind, hydro, and geothermal energy sources.",
+      "Upgrade buildings, appliances, and industrial processes to be more energy-efficient.",
+      "Implement smart grid technology to efficiently distribute and manage energy."
+    ]
+  },
+   {
+    "id": 14,
+    "slug": "Affordable and clean energy",
+    "title": "Affordable and clean energy",
+    "image": "/images/14.png",
+    "description": "Affordable and clean energy ensures everyone has access to sustainable, cost-effective power while protecting the environment.",
+    "charts": [
+      {
+        "title": "Global Data on Affordable and Clean Energy.",
+        "data": {
+          "years": [2015, 2020, 2023, 2030],
+          "values": [88, 90, 92, 94]
+        }
+      },
+      {
+       "title": "Regional Data on Affordable and Clean Energy",
+        "data": {
+          "regions": ["North-America","Europe","Central-Asia","South-Asia"],
+          "values": [99, 98, 95, 80] 
+        }
+      }
+    ],
+    "government_initiatives": [
+      "National Water Mission: Part of India's National Action Plan on Climate Change, focusing on water conservation, minimizing wastage, and ensuring equitable distribution.",
+      "Jal Jeevan Mission: Aims to provide safe and adequate drinking water through individual household tap connections by 2024."
+    ],
+    "individual_actions": [
+      "Reduce Energy Consumption: Turn off lights, unplug devices when not in use, and opt for energy-efficient appliances.",
+      "Use Public Transport or Carpool: Reduce your carbon footprint by choosing sustainable transportation options.",
+      "Invest in Green Technologies: Support businesses and innovations that focus on clean energy."
+    ],
+    "other_initiatives": [
+      {
+        "organization": "The Global Water Partnership (GWP)",
+        "description": "A network of organizations and individuals working to promote sustainable water management."
+      },
+      {
+        "organization": "Sustainable Sanitation Alliance (SuSanA)",
+        "description": "Promotes sustainable sanitation solutions worldwide."
+      }
+    ],
+    "solutions": [
+      "Governments, businesses, and individuals should invest in solar, wind, hydro, and geothermal energy sources.",
+      "Upgrade buildings, appliances, and industrial processes to be more energy-efficient.",
+      "Implement smart grid technology to efficiently distribute and manage energy."
+    ]
+  },
+  {
+    "id": 15,
+    "slug": "Affordable and clean energy",
+    "title": "Affordable and clean energy",
+    "image": "/images/15.png",
+    "description": "Affordable and clean energy ensures everyone has access to sustainable, cost-effective power while protecting the environment.",
+    "charts": [
+      {
+        "title": "Global Data on Affordable and Clean Energy.",
+        "data": {
+          "years": [2015, 2020, 2023, 2030],
+          "values": [88, 90, 92, 94]
+        }
+      },
+      {
+       "title": "Regional Data on Affordable and Clean Energy",
+        "data": {
+          "regions": ["North-America","Europe","Central-Asia","South-Asia"],
+          "values": [99, 98, 95, 80] 
+        }
+      }
+    ],
+    "government_initiatives": [
+      "National Water Mission: Part of India's National Action Plan on Climate Change, focusing on water conservation, minimizing wastage, and ensuring equitable distribution.",
+      "Jal Jeevan Mission: Aims to provide safe and adequate drinking water through individual household tap connections by 2024."
+    ],
+    "individual_actions": [
+      "Reduce Energy Consumption: Turn off lights, unplug devices when not in use, and opt for energy-efficient appliances.",
+      "Use Public Transport or Carpool: Reduce your carbon footprint by choosing sustainable transportation options.",
+      "Invest in Green Technologies: Support businesses and innovations that focus on clean energy."
+    ],
+    "other_initiatives": [
+      {
+        "organization": "The Global Water Partnership (GWP)",
+        "description": "A network of organizations and individuals working to promote sustainable water management."
+      },
+      {
+        "organization": "Sustainable Sanitation Alliance (SuSanA)",
+        "description": "Promotes sustainable sanitation solutions worldwide."
+      }
+    ],
+    "solutions": [
+      "Governments, businesses, and individuals should invest in solar, wind, hydro, and geothermal energy sources.",
+      "Upgrade buildings, appliances, and industrial processes to be more energy-efficient.",
+      "Implement smart grid technology to efficiently distribute and manage energy."
+    ]
+  },
+  {
+    "id": 16,
+    "slug": "Affordable and clean energy",
+    "title": "Affordable and clean energy",
+    "image": "/images/16.png",
+    "description": "Affordable and clean energy ensures everyone has access to sustainable, cost-effective power while protecting the environment.",
+    "charts": [
+      {
+        "title": "Global Data on Affordable and Clean Energy.",
+        "data": {
+          "years": [2015, 2020, 2023, 2030],
+          "values": [88, 90, 92, 94]
+        }
+      },
+      {
+       "title": "Regional Data on Affordable and Clean Energy",
+        "data": {
+          "regions": ["North-America","Europe","Central-Asia","South-Asia"],
+          "values": [99, 98, 95, 80] 
+        }
+      }
+    ],
+    "government_initiatives": [
+      "National Water Mission: Part of India's National Action Plan on Climate Change, focusing on water conservation, minimizing wastage, and ensuring equitable distribution.",
+      "Jal Jeevan Mission: Aims to provide safe and adequate drinking water through individual household tap connections by 2024."
+    ],
+    "individual_actions": [
+      "Reduce Energy Consumption: Turn off lights, unplug devices when not in use, and opt for energy-efficient appliances.",
+      "Use Public Transport or Carpool: Reduce your carbon footprint by choosing sustainable transportation options.",
+      "Invest in Green Technologies: Support businesses and innovations that focus on clean energy."
+    ],
+    "other_initiatives": [
+      {
+        "organization": "The Global Water Partnership (GWP)",
+        "description": "A network of organizations and individuals working to promote sustainable water management."
+      },
+      {
+        "organization": "Sustainable Sanitation Alliance (SuSanA)",
+        "description": "Promotes sustainable sanitation solutions worldwide."
+      }
+    ],
+    "solutions": [
+      "Governments, businesses, and individuals should invest in solar, wind, hydro, and geothermal energy sources.",
+      "Upgrade buildings, appliances, and industrial processes to be more energy-efficient.",
+      "Implement smart grid technology to efficiently distribute and manage energy."
+    ]
+  },
+  {
+    "id": 17,
+    "slug": "Affordable and clean energy",
+    "title": "Affordable and clean energy",
+    "image": "/images/17.png",
+    "description": "Affordable and clean energy ensures everyone has access to sustainable, cost-effective power while protecting the environment.",
+    "charts": [
+      {
+        "title": "Global Data on Affordable and Clean Energy.",
+        "data": {
+          "years": [2015, 2020, 2023, 2030],
+          "values": [88, 90, 92, 94]
+        }
+      },
+      {
+       "title": "Regional Data on Affordable and Clean Energy",
+        "data": {
+          "regions": ["North-America","Europe","Central-Asia","South-Asia"],
           "values": [99, 98, 95, 80] 
         }
       }
