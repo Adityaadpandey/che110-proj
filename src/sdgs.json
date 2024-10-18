@@ -190,53 +190,683 @@
       "Improving teacher training and resources.",
       "Incorporating digital education tools and technologies."
     ]
-  }
+  },
   {
     "id": 5,
-    "slug": "quality-education",
-    "title": "Quality Education",
-    "image": "/images/4.png",
-    "description": "Ensure inclusive and equitable quality education and promote lifelong learning opportunities for all.",
+    "slug": "gender-equality",
+    "title": "gender-equality",
+    "image": "/images/5.png",
+    "description": "Gender equality is about ensuring that all individuals, regardless of gender, have equal rights, opportunities, and respect.",
     "charts": [
       {
-        "title": "Global Literacy Rates",
+        "title": "some key statistics about gender equality over the years and projected into the future",
         "data": {
-          "years": [2010, 2015, 2020, 2025],
-          "values": [84, 86, 88, 90]
+          "years": [2015, 2018, 2020, 2025],
+          "values": [23, 25, 29, 20]
         }
       },
       {
-        "title": "Access to Education by Region",
+        "title": "Economic Participation and Opportunity",
         "data": {
-          "regions": ["Africa", "Asia", "Latin America", "Europe"],
-          "values": [60, 75, 85, 95]
+          "regions": ["North America","Europe","Asia-Pacific","Latin America"],
+          "values": [73, 72, 60, 58]
         }
       }
     ],
     "government_initiatives": [
-      "Samagra Shiksha to improve the quality of education.",
-      "Digital India initiatives to enhance access to educational resources.",
-      "The Right to Education Act ensures free and compulsory education for children aged 6-14."
+      "Beti Bachao Beti Padhao (BBBP): A campaign to address the declining child sex ratio and promote the education of girls.",
+      "Pradhan Mantri Ujjwala Yojana: Provides clean cooking fuel to women, reducing health hazards associated with traditional cooking methods.",
+      "Stand-Up India: A scheme to support women entrepreneurs by facilitating bank loans.",
+      "Swachh Bharat Mission: Improves sanitation facilities, benefiting women and girls."  
     ],
     "individual_actions": [
-      "Volunteer to tutor students from underprivileged backgrounds.",
-      "Support initiatives aimed at providing educational resources to underserved communities.",
-      "Advocate for inclusive education policies."
+      "Educate Yourself and Others: Understand gender issues and share that knowledge.",
+      "Challenge Gender Stereotypes: Speak up against stereotypes and biases.",
+      "Vote and Advocate: Support policies and leaders who promote gender equality."
     ],
     "other_initiatives": [
       {
-        "organization": "UNICEF",
-        "description": "Works to ensure all children have access to quality education."
+        "organization": "UN Women",
+        "description": "Focuses on women's leadership, economic security, ending violence against women, and peacebuilding."
       },
       {
-        "organization": "Global Partnership for Education",
-        "description": "Funds programs to improve education systems in developing countries."
+        "organization": "INSEAD’s Gender Initiative",
+        "description": "Researches and promotes gender equality in business and society."
       }
     ],
     "solutions": [
-      "Providing affordable and accessible education for all.",
-      "Improving teacher training and resources.",
-      "Incorporating digital education tools and technologies."
+      " Ensure women and men have equal opportunities in education and employment.",
+      "Advocate for laws that support gender equality, such as equal pay legislation and anti-discrimination policies.",
+      "Encourage workplaces to adopt flexible work arrangements that support both men and women in balancing work and personal responsibilities."
+    ]
+  },
+  {
+    "id": 6,
+    "slug": "Clean water and sanitation",
+    "title": "Clean water and sanitation",
+    "image": "/images/6.png",
+    "description": "Clean water and sanitation mean ensuring everyone has access to safe drinking water and adequate sanitation facilities to promote health and prevent diseases.",
+    "charts": [
+      {
+        "title": "global progress in increasing access to clean water.",
+        "data": {
+          "years": [2000, 2020, 2023, 2030],
+          "values": [79, 90, 92, 81]
+        }
+      },
+      {
+        "title": "Access to sanitation",
+        "data": {
+          "years": [2000, 2020, 2023, 2030],
+          "values": [58, 74, 76, 67]
+        }
+      },
+      {
+       "title": "Regional Data on Clean water",
+        "data": {
+          "regions": ["North-America","Europe","Central-Asia","South-Asia"],
+          "values": [99, 98, 95, 80] 
+        }
+      },
+      {
+        "title": "Regional Data on sanitation",
+         "data": {
+           "regions": ["North-America","Europe","Central-Asia","South-Asia"],
+           "values": [99, 98, 93, 75] 
+         }
+       }
+
+    ],
+    "government_initiatives": [
+      "Swachh Bharat Mission (Gramin): Launched in 2014, this mission aimed to make India Open Defecation Free (ODF) by constructing over 100 million individual household toilets.",
+      "Jal Jeevan Mission: Aims to provide safe and adequate drinking water through individual household tap connections by 2024."
+    ],
+    "individual_actions": [
+      "Conserve Water: Be mindful of your water usage. Fix leaks, take shorter showers,and use water-efficient fixtures.",
+      "Practice Good Hygiene: Adopt and promote proper handwashing and sanitation practices.",
+      "Reduce Pollution: Properly dispose of waste and avoid using harmful chemicals that can contaminate water sources."
+    ],
+    "other_initiatives": [
+      {
+        "organization": "World Health Organization (WHO)",
+        "description": "Provides guidelines and support for water safety and sanitation practices globally."
+      },
+      {
+        "organization": "UNICEF's WASH Programs",
+        "description": "it works globally to provide safe water, sanitation, and hygiene (WASH) services, especially in schools and communities."
+      }
+    ],
+    "solutions": [
+      " Improve and build water supply and sanitation systems.",
+      "Educate communities on hygiene practices and water conservation.",
+      "Use technology to monitor water quality and reduce wastage."
+    ]
+  },
+  {
+    "id": 7,
+    "slug": "Affordable and clean energy",
+    "title": "Affordable and clean energy",
+    "image": "/images/7.png",
+    "description": "Affordable and clean energy ensures everyone has access to sustainable, cost-effective power while protecting the environment.",
+    "charts": [
+      {
+        "title": "Global Data on Affordable and Clean Energy.",
+        "data": {
+          "years": [2015, 2020, 2023, 2030],
+          "values": [88, 90, 92, 94]
+        }
+      },
+      {
+       "title": "Regional Data on Affordable and Clean Energy",
+        "data": {
+          "regions": ["North-America","Europe","Central-Asia","South-Asia"],
+          "values": [99, 98, 95, 80] 
+        }
+      }
+    ],
+    "government_initiatives": [
+      "National Water Mission: Part of India's National Action Plan on Climate Change, focusing on water conservation, minimizing wastage, and ensuring equitable distribution.",
+      "Jal Jeevan Mission: Aims to provide safe and adequate drinking water through individual household tap connections by 2024."
+    ],
+    "individual_actions": [
+      "Reduce Energy Consumption: Turn off lights, unplug devices when not in use, and opt for energy-efficient appliances.",
+      "Use Public Transport or Carpool: Reduce your carbon footprint by choosing sustainable transportation options.",
+      "Invest in Green Technologies: Support businesses and innovations that focus on clean energy."
+    ],
+    "other_initiatives": [
+      {
+        "organization": "The Global Water Partnership (GWP)",
+        "description": "A network of organizations and individuals working to promote sustainable water management."
+      },
+      {
+        "organization": "Sustainable Sanitation Alliance (SuSanA)",
+        "description": "Promotes sustainable sanitation solutions worldwide."
+      }
+    ],
+    "solutions": [
+      "Governments, businesses, and individuals should invest in solar, wind, hydro, and geothermal energy sources.",
+      "Upgrade buildings, appliances, and industrial processes to be more energy-efficient.",
+      "Implement smart grid technology to efficiently distribute and manage energy."
+    ]
+  },
+  {
+    "id": 8,
+    "slug": "Decent Work And Economic Growth",
+    "title": "Decent Work And Economic Growth",
+    "image": "/images/8.png",
+    "description": "Decent work and economic growth mean ensuring everyone has access to fair employment opportunities that drive sustainable economic progress.",
+    "charts": [
+      {
+        "title": "Global Data on Decent Work and Economic Growth(GDP).",
+        "data": {
+          "years": [2010, 2015, 2020, 2030],
+          "values": [4.3, 3.4, -3.5, 3.5]
+        }
+      },
+      {
+        "title": "Global Data on Decent Work and Economic Growth(Employment Rate).",
+        "data": {
+          "years": [2010, 2015, 2020, 2030],
+          "values": [60.2, 61.0, 59.7, 62.0]
+        }
+      },
+      {
+        "title": "Global Data on Decent Work and Economic Growth(Unemployement Rate).",
+        "data": {
+          "years": [2010, 2015, 2020, 2030],
+          "values": [13.0, 13.1, 13.8, 11.8]
+        }
+      },
+      {
+       "title": "Regional Data on Decent Work and Economis Growth(GDP).",
+        "data": {
+          "regions": ["North-America","Europe","Central-Asia","South-Asia"],
+          "values": [2.5, 1.8, 3.0, 5.0] 
+        }
+      },
+      {
+        "title": "Regional Data on Decent Work and Economis Growth(Employement).",
+         "data": {
+           "regions": ["North-America","Europe","Central-Asia","South-Asia"],
+           "values": [67.0, 65.0, 63.0, 55.0] 
+         }
+       },
+       {
+        "title": "Regional Data on Decent Work and Economis Growth(Youth Unemployment).",
+         "data": {
+           "regions": ["North-America","Europe","Central-Asia","South-Asia"],
+           "values": [10.0, 11.5, 12.0, 18.0] 
+         }
+       }
+    ],
+    "government_initiatives": [
+      "Atmanirbhar Bharat Rojgar Yojana (ABRY): Launched in 2020, this scheme aims to provide employment opportunities and support businesses affected by the COVID-19 pandemic.",
+      "Mahatma Gandhi National Rural Employment Guarantee Act (MGNREGA): Provides at least 100 days of wage employment in a financial year to every rural household whose adult members volunteer to do unskilled manual work."
+    ],
+    "individual_actions": [
+      "Support Local Businesses: Buy from small and local businesses to boost the economy.",
+      "Invest in Education: Enhance your skills and encourage others to pursue education and training.",
+      "Stay Informed: Educate yourself about the issues affecting workers and economies, and share that knowledge."
+    ],
+    "other_initiatives": [
+      {
+        "organization": "International Labour Organization (ILO)",
+        "description": "Future of Work Initiative: Examines the changing nature of work and proposes solutions to ensure decent work for all."
+      },
+      {
+        "organization": "G20",
+        "description": "Global Partnership for Financial Inclusion (GPFI): Works to improve access to finance for small and medium-sized enterprises (SMEs), which are crucial for job creation."
+      }
+    ],
+    "solutions": [
+      "Create job opportunities for underrepresented groups, including women, youth, and persons with disabilities.",
+      "Invest in education and training programs to improve workforce skills.",
+      "Ensure access to healthcare, unemployment benefits, and pensions."
+    ]
+  },
+  {
+    "id": 9,
+    "slug": "INDUSTRY,INNOVATION,INFRASTRUCTURE",
+    "title": "INDUSTRY,INNOVATION,INFRASTRUCTURE",
+    "image": "/images/9.png",
+    "description": "Industry, innovation, and infrastructure drive sustainable economic growth and resilience by fostering modern industries, technological advancements, and robust infrastructure systems.",
+    "charts": [
+      {
+        "title": "Global Data on Industry, Innovation, and Infrastructure(Industrial Production Growth).",
+        "data": {
+          "years": [2015, 2020, 2023, 2030],
+          "values": [3.5, -2.0, 4.0, 4.5]
+        }
+      },
+      {
+        "title": "Global Data on Industry, Innovation, and Infrastructure(Research and Development Expenditure).",
+        "data": {
+          "years": [2015, 2020, 2023, 2030],
+          "values": [2.2, 2.5, 2.7, 3.0]
+        }
+      },
+      {
+        "title": "Global Data on Industry, Innovation, and Infrastructure(Access to infrastrcture).",
+        "data": {
+          "years": [2015, 2020, 2023, 2030],
+          "values": [72, 73, 75, 78]
+        }
+      },
+      {
+       "title": "Regional Data on Industry, Innovation, and Infrastructure(Industrial Production Growth).",
+        "data": {
+          "regions": ["North-America","Europe","Central-Asia","South-Asia"],
+          "values": [3.0, 2,5, 4.0, 6.0] 
+        }
+      },
+      {
+        "title": "Regional Data on Industry, Innovation, and Infrastructure(Research and Development Expenditure).",
+         "data": {
+           "regions": ["North-America","Europe","Central-Asia","South-Asia"],
+           "values": [2.8, 2.6, 1.5, 0,5] 
+         }
+       },{
+        "title": "Regional Data on Industry, Innovation, and Infrastructure(Access to infrastrcture).",
+         "data": {
+           "regions": ["North-America","Europe","Central-Asia","South-Asia"],
+           "values": [80, 78, 70, 60] 
+         }
+       }
+    ],
+    "government_initiatives": [
+      "Make in India: Launched to facilitate investment, foster innovation, enhance skill development, protect intellectual property, and build best-in-class manufacturing infrastructure.",
+      "Pandit Deendayal Upadhyay Shramev Jayate Karyakram: Focuses on improving the working conditions and welfare of workers."
+    ],
+    "individual_actions": [
+      "Support Local Businesses: Buy locally-made products to boost local industries.",
+      "Educate Yourself and Others: Learn about the importance of infrastructure and innovation, and spread that knowledge.",
+      "Support STEM Education: Encourage and support education in science, technology, engineering, and mathematics."
+    ],
+    "other_initiatives": [
+      {
+        "organization": "Public-Private Partnerships",
+        "description": "Fostering partnerships between government and private sector to undertake large-scale infrastructure projects and drive economic growth."
+      },
+      {
+        "organization": "Global Partnership for Sustainable Development",
+        "description": "Collaborating with international organizations to share knowledge, resources, and technology for sustainable development."
+      }
+    ],
+    "solutions": [
+      "Develop and upgrade infrastructure, including transportation, energy, and ICT, to enhance connectivity and promote sustainable development.",
+      " Increase funding for R&D to drive technological advancements and support innovative solutions.",
+      "Provide financial support and incentives for startups and businesses investing in innovative solutions."
+    ]
+  },
+  {
+    "id": 10,
+    "slug": "REDUCED INEQUALITY",
+    "title": "REDUCED INEQUALITY",
+    "image": "/images/10.png",
+    "description": "Reduced inequality means ensuring fair opportunities and outcomes for all individuals, regardless of their background or status.",
+    "charts": [
+      {
+        "title": "Global Data on Reduced Inequality",
+        "data": {
+          "years": [2010, 2015, 2020, 2023],
+          "values": [0.70, 0.68, 0.66, 0.65]
+        }
+      },
+      {
+       "title": "Regional Data on Reduced Inequality",
+        "data": {
+          "regions": ["North-America","Europe","Central-Asia","South-Asia"],
+          "values": [0.41, 0.30, 0.35, 0.50] 
+        }
+      }
+    ],
+    "government_initiatives": [
+      "Mahatma Gandhi National Rural Employment Guarantee Act (MGNREGA): Provides at least 100 days of wage employment in a financial year to every rural household whose adult members volunteer to do unskilled manual work.",
+      "National Social Assistance Programme (NSAP): Provides financial assistance to the elderly, widows, and persons with disabilities living below the poverty line."
+    ],
+    "individual_actions": [
+      "Support Fair Trade: Buy products that are ethically sourced and support fair wages.",
+      "Use Your Voice: Speak out against discrimination and inequality whenever you see it.",
+      "Donate: Financially support charities and initiatives focused on equality."
+    ],
+    "other_initiatives": [
+      {
+        "organization": "International Organizations",
+        "description": "UNDP's Human Development Reports: Focus on inequality and provide policy recommendations."
+      },
+      {
+        "organization": "Non-Governmental Organizations (NGOs)",
+        "description": "Equality Now: Focuses on legal equality, ending violence, and achieving economic equality for women and girls worldwide."
+      }
+    ],
+    "solutions": [
+      "Ensure that wealthier individuals and corporations pay a fair share of taxes, and use those funds to support social programs.",
+      "Advocate for living wages and fair labor practices across industries.",
+      "Enforce laws and regulations that combat discrimination in all forms."
+    ]
+  },
+  {
+    "id": 11,
+    "slug": "SUSTAINABLE CITIES AND COMMUNITIES",
+    "title": "SUSTAINABLE CITIES AND COMMUNITIES",
+    "image": "/images/11.png",
+    "description": "Sustainable cities and communities ensure that everyone can thrive in safe, inclusive, and environmentally friendly urban areas.",
+    "charts": [
+      {
+        "title": "Global Data on Sustainable Cities and Communities",
+        "data": {
+          "years": [2010, 2020, 2023, 2030],
+          "values": [50, 54, 55, 58]
+        }
+      },
+      {
+       "title": "Regional Data on Sustainable Cities and Communities",
+        "data": {
+          "regions": ["North-America","Europe","Central-Asia","South-Asia"],
+          "values": [82, 75, 60, 50] 
+        }
+      }
+    ],
+    "government_initiatives": [
+      "National Action Plan on Climate Change (NAPCC): Provides an overarching policy framework for climate actions, including sustainable habitat and green India missions.",
+      "Smart Cities Mission: Aims to develop 100 smart cities that provide core infrastructure, a clean and sustainable environment, and a high quality of life through smart solutions."
+    ],
+    "individual_actions": [
+      "Support a charity: Donate to a charity that supports Goal 11 of the Global Goals.",
+      "Volunteer: Volunteer in slums to help build or fix houses, or to set up public spaces.",
+      "Shop local: Support local businesses to keep people employed and money circulating in your community."
+    ],
+    "other_initiatives": [
+      {
+        "organization": "Global Organizations",
+        "description": "C40 Cities Climate Leadership Group: Connects 96 of the world's greatest cities to take bold climate action and build a healthier, sustainable future."
+      },
+      {
+        "organization": "Educational and Research Institutions",
+        "description": "Urban Sustainability Directors Network (USDN): Supports city sustainability directors and their teams in creating and implementing sustainable urban strategies."
+      }
+    ],
+    "solutions": [
+      "Invest in efficient, accessible, and sustainable public transportation systems.",
+      " Develop smart grids, buildings, and infrastructure that use technology to improve efficiency and reduce waste.",
+      "Ensure efficient water use and management to meet the needs of urban populations."
+    ]
+  },
+  {
+    "id": 12,
+    "slug": "RESPONSIBLE,CONSUMPTION,AND PRODUCTION",
+    "title": "RESPONSIBLE,CONSUMPTION,AND PRODUCTION",
+    "image": "/images/12.png",
+    "description": "Responsible consumption and production involve using resources efficiently to minimize waste, reduce environmental impact, and ensure sustainability for future generations.",
+    "charts": [
+      {
+        "title": "Global Data on Responsible,Consumption,and Production.",
+        "data": {
+          "years": [2015, 2020, 2023, 2030],
+          "values": [32, 35, 37, 40]
+        }
+      },
+      {
+       "title": "Regional Data on Responsible,Consumption,and Production",
+        "data": {
+          "regions": ["North-America","Europe","Central-Asia","South-Asia"],
+          "values": [40, 45, 35, 32] 
+        }
+      }
+    ],
+    "government_initiatives": [
+      "National Action Plan on Climate Change (NAPCC): Focuses on sustainable development and includes missions on sustainable habitat and green India.",
+      "Extended Producer Responsibility (EPR): Makes producers responsible for the recycling and disposal of post-consumer products."
+    ],
+    "individual_actions": [
+      "Minimize Single-Use Plastics: Avoid plastic bags, straws, and disposable cutlery by using reusable alternatives.",
+      "Buy Locally: Support local businesses and reduce the environmental impact of transportation.",
+      "Recycling Properly: Sort your waste appropriately and educate yourself about local recycling rules."
+    ],
+    "other_initiatives": [
+      {
+        "organization": "Community-Based Initiatives",
+        "description": "Sharing Economies: Communities can promote sharing goods and services to reduce waste. Examples include tool libraries, carpooling services, or clothing swap events."
+      },
+      {
+        "organization": "Sustainable Tourism Initiatives",
+        "description": "Plastic-Free Travel: Some initiatives promote plastic-free tourism by encouraging travelers to avoid plastic bottles, straws, and bags during their trips, providing refill stations and alternatives."
+      }
+    ],
+    "solutions": [
+      "Treat waste as a valuable resource by turning it into new products through recycling or upcycling.",
+      "Introducing sustainability concepts at an early age in school curriculums fosters an environmentally conscious generation."
+    ]
+  },
+  {
+    "id": 13,
+    "slug": "CLIMATE ACTION",
+    "title": "CLIMATE ACTION",
+    "image": "/images/13.png",
+    "description": "Climate Action refers to efforts aimed at reducing greenhouse gas emissions, enhancing climate resilience, and mitigating the impacts of climate change to protect the planet for future generations.",
+    "charts": [
+      {
+        "title": "Global Data on Climate Action(in BMT of co2).",
+        "data": {
+          "years": [2015, 2020, 2022, 2030],
+          "values": [35.7, 34.8, 36.6, 40.2]
+        }
+      },
+      {
+       "title": "Regional Data on Climate Action(co2)",
+        "data": {
+          "regions": ["North-America","Europe","Central-Asia","Africa"],
+          "values": [6.2, 4.5, 9.6, 1.3] 
+        }
+      }
+    ],
+    "government_initiatives": [
+      "Goals: All signatory countries committed to submitting Nationally Determined Contributions (NDCs) to reduce emissions and review them every five years.",
+      "Government Actions: Countries are required to integrate climate policies into their national planning, focusing on adaptation, disaster risk reduction, and emissions reductions."
+    ],
+    "individual_actions": [
+      "Reduce Energy Use: Turn off lights and unplug electronics when not in use. Use energy-efficient appliances and light bulbs (e.g., LEDs).",
+      "Switch to Electric Vehicles (EVs): Consider switching to an EV or a hybrid vehicle to reduce emissions."
+    ],
+    "other_initiatives": [
+      {
+        "organization": "Community-Led Initiatives",
+        "description": "Communities can come together to fund and build local renewable energy projects such as solar panels, wind farms, or micro-hydro power stations."
+      },
+      {
+        "organization": "Corporate and Organizational Initiatives",
+        "description": "Many companies incorporate climate-related goals into their CSR strategies, focusing on reducing emissions, conserving resources, and promoting sustainability."
+      }
+    ],
+    "solutions": [
+      "Expand solar energy installations on rooftops and in solar farms. Support solar panel incentives and financing for households and businesses.",
+      "Implement smart grid technology to optimize energy distribution, manage demand, and integrate renewable energy sources.",
+      " Encourage practices that restore soil health, improve biodiversity, and enhance carbon sequestration, such as cover cropping and crop rotation."
+    ]
+  },
+   {
+    "id": 14,
+    "slug": "LIFE BELOW WATER",
+    "title": "LIFE BELOW WATER",
+    "image": "/images/14.png",
+    "description": "Life Below Water focuses on the sustainable management and protection of oceans, seas, and marine resources to ensure their health and resilience for future generations.",
+    "charts": [
+      {
+        "title": "Global Data on LIFE BELOW WATER",
+        "data": {
+          "years": [2017, 2019, 2020, 2030],
+          "values": [34.2, 8.1, 7.74, 40]
+        }
+      },
+      {
+       "title": "Regional Data on LIFE BELOW WATER",
+        "data": {
+          "regions": ["North-America","Europe","Central-Asia","Africa"],
+          "values": [26, 12, 8.7, 5.5] 
+        }
+      }
+    ],
+    "government_initiatives": [
+      "International Agreements: Countries are participating in global agreements like the Convention on Biological Diversity to commit to protecting at least 10% of coastal and marine areas by 2020, and now aiming for 30% by 2030.",
+      "Plastic Waste Management: Governments are enacting laws to reduce single-use plastics and improve waste management systems. France has implemented a ban on single-use plastic items, while Canada is committing to reduce plastic pollution by 2030."
+    ],
+    "individual_actions": [
+      "Carry Reusable Bags: Use cloth or other reusable bags instead of single-use plastic bags for shopping.",
+      "Stay Informed: Educate yourself about local fish populations and avoid overfished species. Resources like the Seafood Watch guide can help.",
+      "Teach Others: Share your knowledge with friends, family, and local community members about the importance of protecting marine ecosystems."
+    ],
+    "other_initiatives": [
+      {
+        "organization": "International Treaties and Agreements",
+        "description": "Paris Agreement: While primarily focused on climate change, it emphasizes the importance of reducing carbon emissions that affect ocean health, particularly through measures to limit global warming."
+      },
+      {
+        "organization": "Funding and Grants",
+        "description": "Blue Economy Investments: Initiatives aimed at promoting sustainable economic growth from ocean resources, supporting industries like sustainable fishing and eco-tourism."
+      }
+    ],
+    "solutions": [
+      " Implementing policies to reduce single-use plastics, promote recycling, and encourage the use of biodegradable materials can significantly reduce marine litter.",
+      "Encouraging responsible tourism practices, such as minimizing environmental impact and supporting local communities, can enhance the sustainability of marine tourism."
+    ]
+  },
+  {
+    "id": 15,
+    "slug": "LIFE ON LAND",
+    "title": "LIFE ON LAND",
+    "image": "/images/15.png",
+    "description": "Life on Land aims to protect, restore, and promote the sustainable use of terrestrial ecosystems, manage forests sustainably, combat desertification, halt and reverse land degradation, and halt biodiversity loss.",
+    "charts": [
+      {
+        "title": "Global Data on Life on Land",
+        "data": {
+          "years": [2020, 2020, 2021, 2030],
+          "values": [31, 15.1, 25, 17]
+        }
+      },
+      {
+       "title": "Regional Data on Life on Land",
+        "data": {
+          "regions": ["North-America","Europe","Central-Asia","Africa"],
+          "values": [33, 45, 45, 22] 
+        }
+      }
+    ],
+    "government_initiatives": [
+      "National Reforestation Programs: Countries like Ethiopia and India have launched extensive reforestation initiatives to restore degraded lands and increase forest cover.",
+      "Biodiversity Action Plans: Many countries create national biodiversity strategies to protect ecosystems and promote sustainable resource use."
+    ],
+    "individual_actions": [
+      "Choose Organic Products: Opt for organic and sustainably sourced products to minimize the impact of chemical fertilizers and pesticides on land and biodiversity.",
+      "Minimize Waste: Reduce consumption of single-use plastics and other disposable items. Practice the 3 Rs: Reduce, Reuse, and Recycle to minimize waste generation.",
+      "Implement Water-Saving Practices: Use water-efficient appliances, fix leaks, and collect rainwater for gardening to reduce water consumption and protect local ecosystems."
+    ],
+    "other_initiatives": [
+      {
+        "organization": "Sustainable Forestry Programs",
+        "description": "Forest Stewardship Council (FSC): This organization promotes responsible management of the world’s forests through certification and standards for sustainable forest practices."
+      },
+      {
+        "organization": "Partnerships and Collaborations",
+        "description": "Public-Private Partnerships: Collaborations between governments, NGOs, and private sectors to fund and implement conservation projects, such as habitat restoration and sustainable land management."
+      }
+    ],
+    "solutions": [
+      "Encouraging organic farming practices that avoid synthetic fertilizers and pesticides, thus reducing environmental impact and promoting healthier ecosystems.",
+      "Organizing community tree planting events to restore degraded lands and increase forest cover, improving carbon sequestration and habitat for wildlife."
+    ]
+  },
+  {
+    "id": 16,
+    "slug": "PEACE,JUSTICE AND STRONG INSTITUTIONS",
+    "title": "PEACE,JUSTICE AND STRONG INSTITUTIONS",
+    "image": "/images/16.png",
+    "description": "Peace, Justice, and Strong Institutions aims to promote peaceful, inclusive societies, provide access to justice for all, and build accountable, effective institutions at all levels.",
+    "charts": [
+      {
+        "title": "Global Data on Affordable and Clean Energy.",
+        "data": {
+          "years": [2015, 2020, 2025, 2030],
+          "values": [6.1, 5.9, 5.6, 5.4]
+        }
+      },
+      {
+       "title": "Regional Data on Affordable and Clean Energy",
+        "data": {
+          "regions": ["Latin-America","Europe","Central-Asia","South-Asia"],
+          "values": [20.4, 6.1, 6.1, 3.0] 
+        }
+      }
+    ],
+    "government_initiatives": [
+      "India–E-Courts Project: The government has implemented the e-Courts initiative to digitize and streamline court processes, improving access to justice, especially in rural and underserved areas. The system allows for online case filing, video conferencing, and electronic document management.",
+      "Rwanda–National Anti-Corruption Policy: Rwanda has made significant strides in reducing corruption through strict enforcement of its anti-corruption laws and improving the transparency of public services."
+    ],
+    "individual_actions": [
+      "Practice Non-Violence: Avoid engaging in or encouraging violence. Use peaceful means to resolve conflicts, whether in personal relationships or within the community.",
+      "Volunteer for Legal Aid Programs: Offer your time to organizations that provide legal support for marginalized or vulnerable groups. Helping others navigate the legal system can make a significant impact.",
+      "Raise Awareness: Use social media or community platforms to raise awareness about human rights issues, justice, and institutional reforms. Educating others helps build more informed, inclusive communities."
+    ],
+    "other_initiatives": [
+      {
+        "organization": "International and Regional Organizations",
+        "description": "United Nations Development Programme (UNDP): The UNDP supports countries in building inclusive, effective, and accountable institutions. Its initiatives focus on rule of law, human rights, peacebuilding, and anti-corruption. UNDP also assists countries recovering from conflict through programs that strengthen justice systems and democratic governance."
+      },
+      {
+        "organization": "Civil Society and NGOs",
+        "description": "Amnesty International: Amnesty International campaigns for justice, freedom, and human rights around the world. It works to ensure accountability for human rights violations and provides support to victims of injustice. The organization also lobbies for fair trials, freedom of expression, and protection of vulnerable groups."
+      }
+    ],
+    "solutions": [
+      "Utilize digital platforms and mobile apps to make legal services more accessible. For example, online dispute resolution systems can help individuals resolve issues without costly legal battles.",
+      "Encourage greater citizen participation in decision-making processes, from local governance to national policymaking. Mechanisms like participatory budgeting allow communities to have a direct say in how resources are allocated.",
+      "Use AI and big data to predict and prevent conflicts by analyzing patterns of violence, political instability, and social unrest. These insights can help governments and international organizations take early action to mitigate risks."
+    ]
+  },
+  {
+    "id": 17,
+    "slug": "PARTNERSHIPS FOR THE GOALS",
+    "title": "PARTNERSHIPS FOR THE GOALS",
+    "image": "/images/17.png",
+    "description": "Partnerships for the Goals (SDG 17) focuses on strengthening global collaboration and resource mobilization to achieve sustainable development across all sectors.",
+    "charts": [
+      {
+        "title": "Global Data on Partnerships for the Goals(in billions)",
+        "data": {
+          "years": [2020, 2021, 2030],
+          "values": [161, 179, 190]
+        }
+      },
+      {
+       "title": "Regional Data on Partnerships for the Goals(in trillion)",
+        "data": {
+          "regions": ["Latin-America","Europe","Asia","Africa"],
+          "values": [2, 8.5, 9, 1.2] 
+        }
+      }
+    ],
+    "government_initiatives": [
+      "United States:The U.S. Agency for International Development (USAID) leads efforts to provide financial aid to developing countries, focusing on healthcare, education, and democracy-building.",
+      "Japan:Through the Japan International Cooperation Agency (JICA), Japan provides ODA targeting infrastructure, education, and disaster management in developing countries, especially in Asia."
+    ],
+    "individual_actions": [
+      "Invest in social enterprises: Use personal savings to invest in businesses or funds that focus on sustainable development and impact investing.",
+      "Support NGOs: Contribute to non-governmental organizations that work in international development, such as the United Nations Foundation, UNICEF, or local organizations that focus on education, healthcare, and environmental protection in developing countries.",
+      "Support digital literacy: Teach digital skills in local communities, especially among marginalized groups, to bridge the digital divide and foster access to global opportunities."
+    ],
+    "other_initiatives": [
+      {
+        "organization": "United Nations (UN) Partnerships",
+        "description": "UN Global Compact: A network of companies committed to responsible business practices and aligning their strategies with the SDGs. It engages over 13,000 businesses in over 160 countries, working to foster sustainable economic development through corporate responsibility."
+      },
+      {
+        "organization": "Global Partnership for Effective Development Co-operation (GPEDC)",
+        "description": "A multilateral initiative that includes governments, civil society, and the private sector working to improve the effectiveness of development aid and partnerships. GPEDC emphasizes transparency, accountability, and collaboration in international aid."
+      }
+    ],
+    "solutions": [
+      " Governments can work closely with private companies to invest in sustainable infrastructure projects, such as renewable energy, clean water, and transportation systems. PPPs can mobilize resources, share risks, and leverage expertise from the private sector.",
+      "Issuing green bonds, social impact bonds, and SDG bonds can raise funds for projects that align with SDG targets. Governments, international organizations, and businesses can issue these bonds to finance climate action, health, education, and poverty reduction projects."
     ]
   }
 ]
