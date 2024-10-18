@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const SDGCard = ({ sdg }) => {
   return (
     <div className="bg-gray-800 shadow-lg rounded-lg overflow-hidden transition-transform duration-300 transform hover:scale-105">
-      <Link to={`/${sdg.slug}`}>
+      <Link to={`/sdg/${sdg.slug}`}>
         <div className="relative w-full" style={{ paddingBottom: '75%' }}> {/* Aspect Ratio 4:3 */}
           <img
             src={sdg.image}
