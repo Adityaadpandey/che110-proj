@@ -15,17 +15,16 @@ ChartJS.register(
   LineElement,
   PointElement
 );
-
 const SDGPage = () => {
   const { slug } = useParams();
   const [sdg, setSdg] = useState(null);
 
   useEffect(() => {
-    const selectedSDG = sdgs.find(sdg => sdg.slug === slug);
+    const selectedSDG = sdgs.find((sdg) => sdg.slug === slug);
     setSdg(selectedSDG);
   }, [slug]);
 
-  if (!sdg) return <p>Loading...</p>;
+  if (!sdg) return <p className="text-center text-xl font-semibold text-gray-100">Loading...</p>;
 
   // Prepare chart data
   const chartData = (data) => ({
@@ -34,22 +33,52 @@ const SDGPage = () => {
       {
         label: data.title,
         data: data.values,
-        backgroundColor: ['#1E3A8A', '#10B981', '#F59E0B', '#EF4444'], // Custom colors for bars/lines
-      }
-    ]
+        backgroundColor: (ctx) => {
+          const gradient = ctx.chart.ctx.createLinearGradient(0, 0, 0, 400);
+          gradient.addColorStop(0, '#1E3A8A'); // Indigo
+          gradient.addColorStop(1, '#F59E0B'); // Yellow
+          return gradient;
+        },
+        borderColor: '#F59E0B',
+        borderWidth: 2,
+        borderRadius: 10,
+        hoverBorderWidth: 3,
+      },
+    ],
   });
 
   return (
-    <div className="container mx-auto p-4">
-      <h1 className="text-3xl font-bold mb-4">{sdg.title}</h1>
-      <img src={sdg.image} alt={sdg.title} className="w-full h-auto mb-6" />
-      <p className="mb-4">{sdg.description}</p>
+    <div className="container mx-auto p-4 bg-gray-900 text-gray-100">
+      {/* Title Section */}
+      <h1 className="text-5xl font-extrabold text-center mb-6 text-gradient bg-gradient-to-r from-indigo-400 via-purple-500 to-pink-500 hover:animate-pulse">
+        {sdg.title}
+      </h1>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold">Government Initiatives</h2>
-        <ul>
+      {/* Side-by-side layout for image and description */}
+      <div className="flex flex-col md:flex-row justify-between items-center mb-8 gap-8">
+        <img
+          src={sdg.image}
+          alt={sdg.title}
+          className="w-full md:w-1/2 h-auto rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300"
+        />
+        <div className="bg-gray-800 p-6 rounded-lg shadow-lg text-gray-300 flex-1">
+          <p className="text-lg leading-relaxed">
+            {sdg.description}
+          </p>
+        </div>
+      </div>
+
+      {/* Government Initiatives Section */}
+      <section className="mb-12 p-6 bg-gray-800 rounded-lg shadow-lg">
+        <h2 className="text-3xl font-semibold text-indigo-400 mb-4 hover:text-green-400 transition-colors duration-300">
+          Government Initiatives
+        </h2>
+        <ul className="list-disc pl-6 space-y-2">
           {sdg.government_initiatives.map((initiative, index) => (
-            <li key={index} className="mb-2">
+            <li
+              key={index}
+              className="text-lg text-gray-300 hover:text-indigo-400 transition-colors duration-300"
+            >
               {initiative}
             </li>
           ))}
@@ -57,57 +86,168 @@ const SDGPage = () => {
       </section>
 
       {/* Charts Section */}
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold">Charts</h2>
-        {sdg.charts.map((chart, index) => (
-          <div key={index} className="my-4">
-            <h3 className="text-xl font-bold mb-2">{chart.title}</h3>
+      <section className="mb-12 p-6 bg-gray-800 rounded-lg shadow-lg">
+        <h2 className="text-3xl font-semibold text-indigo-400 mb-4 hover:text-blue-400 transition-colors duration-300">
+          Charts
+        </h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          {sdg.charts.map((chart, index) => (
+            <div key={index} className="my-8">
+              <h3 className="text-2xl font-semibold mb-4 text-purple-500 hover:text-yellow-400 transition-colors duration-300">
+                {chart.title}
+              </h3>
 
-            {/* Conditionally render Line or Bar chart based on type */}
-            {chart.title.includes('Rate') ? (
-              <Bar
-                data={chartData(chart.data)}
-                options={{
-                  responsive: true,
-                  plugins: {
-                    legend: { position: 'top' },
-                  }
-                }}
-              />
-            ) : (
-              <Bar
-                data={chartData(chart.data)}
-                options={{
-                  responsive: true,
-                  plugins: {
-                    legend: { position: 'top' },
-                  }
-                }}
-              />
-            )}
-          </div>
-        ))}
+              {/* Conditionally render Line or Bar chart based on type */}
+              {chart.title.includes('Rate') ? (
+                <Bar
+                  data={chartData(chart.data)}
+                  options={{
+                    responsive: true,
+                    plugins: {
+                      legend: {
+                        position: 'top',
+                        labels: {
+                          color: '#E5E7EB',
+                          font: { size: 14 },
+                        },
+                      },
+                      tooltip: {
+                        callbacks: {
+                          label: function (tooltipItem) {
+                            return `${tooltipItem.raw}%`; // Custom tooltip to show percentage
+                          },
+                        },
+                        backgroundColor: '#1E3A8A',
+                        titleFont: { size: 14, color: '#F59E0B' },
+                        bodyFont: { size: 12, color: '#F59E0B' },
+                        cornerRadius: 6,
+                      },
+                    },
+                    scales: {
+                      y: {
+                        beginAtZero: true,
+                        ticks: {
+                          color: '#E5E7EB',
+                        },
+                        grid: {
+                          color: '#4B5563',
+                        },
+                      },
+                      x: {
+                        ticks: {
+                          color: '#E5E7EB',
+                        },
+                        grid: {
+                          color: '#4B5563',
+                        },
+                      },
+                    },
+                  }}
+                />
+              ) : (
+                <Bar
+                  data={chartData(chart.data)}
+                  options={{
+                    responsive: true,
+                    plugins: {
+                      legend: {
+                        position: 'top',
+                        labels: {
+                          color: '#E5E7EB',
+                          font: { size: 14 },
+                        },
+                      },
+                      tooltip: {
+                        callbacks: {
+                          label: function (tooltipItem) {
+                            return `${tooltipItem.raw}`; // Custom tooltip to show values
+                          },
+                        },
+                        backgroundColor: '#10B981',
+                        titleFont: { size: 14, color: '#F59E0B' },
+                        bodyFont: { size: 12, color: '#F59E0B' },
+                        cornerRadius: 6,
+                      },
+                    },
+                    scales: {
+                      y: {
+                        beginAtZero: true,
+                        ticks: {
+                          color: '#E5E7EB',
+                        },
+                        grid: {
+                          color: '#4B5563',
+                        },
+                      },
+                      x: {
+                        ticks: {
+                          color: '#E5E7EB',
+                        },
+                        grid: {
+                          color: '#4B5563',
+                        },
+                      },
+                    },
+                  }}
+                />
+              )}
+            </div>
+          ))}
+        </div>
       </section>
 
-      {/* You can add more sections for individual actions, solutions, etc. */}
-      <section className="mb-8">
-  <h2 className="text-2xl font-semibold">What We Can Do</h2>
-  <ul>
-    {sdg.individual_actions.map((action, index) => (
-      <li key={index} className="mb-2">{action}</li>
-    ))}
-  </ul>
-</section>
+      {/* Individual Actions Section */}
+      <section className="mb-12 p-6 bg-gray-800 rounded-lg shadow-lg">
+        <h2 className="text-3xl font-semibold text-indigo-400 mb-4 hover:text-green-400 transition-colors duration-300">
+          What We Can Do
+        </h2>
+        <ul className="list-disc pl-6 space-y-2">
+          {sdg.individual_actions.map((action, index) => (
+            <li
+              key={index}
+              className="text-lg text-gray-300 hover:text-green-400 transition-colors duration-300"
+            >
+              {action}
+            </li>
+          ))}
+        </ul>
+      </section>
 
-<section className="mb-8">
-  <h2 className="text-2xl font-semibold">Solutions</h2>
-  <ul>
-    {sdg.solutions.map((solution, index) => (
-      <li key={index} className="mb-2">{solution}</li>
-    ))}
-  </ul>
-</section>
+      {/* Global Initiatives Section */}
+      <section className="mb-12 p-6 bg-gray-800 rounded-lg shadow-lg">
+        <h2 className="text-3xl font-semibold text-indigo-400 mb-4 hover:text-yellow-400 transition-colors duration-300">
+          Global Initiatives
+        </h2>
+        <div className="space-y-4">
+          {sdg.global_initiatives.map((initiative, index) => (
+            <div key={index} className="p-4 bg-gray-700 rounded-lg shadow-md">
+              <h3 className="text-2xl font-semibold text-blue-400 mb-2">
+                {initiative.organization}
+              </h3>
+              <p className="text-lg text-gray-300">
+                {initiative.description}
+              </p>
+            </div>
+          ))}
+        </div>
+      </section>
 
+      {/* Solutions Section */}
+      <section className="mb-12 p-6 bg-gray-800 rounded-lg shadow-lg">
+        <h2 className="text-3xl font-semibold text-indigo-400 mb-4 hover:text-blue-400 transition-colors duration-300">
+          Solutions
+        </h2>
+        <ul className="list-disc pl-6 space-y-2">
+          {sdg.solutions.map((solution, index) => (
+            <li
+              key={index}
+              className="text-lg text-gray-300 hover:text-blue-400 transition-colors duration-300"
+            >
+              {solution}
+            </li>
+          ))}
+        </ul>
+      </section>
     </div>
   );
 };

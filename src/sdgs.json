@@ -1,100 +1,170 @@
 [
-  {
-    "id": 1,
-    "slug": "no-poverty",
-    "title": "No Poverty",
-    "image": "/images/1.png",
-    "description": "End poverty in all its forms everywhere by ensuring equal access to economic resources and services.",
-    "charts": [
-      {
-        "title": "Global Poverty Rate",
-        "data": {
-          "years": [2010, 2015, 2020, 2025],
-          "values": [15, 12, 10, 8]
+  
+    {
+      "id": 1,
+      "slug": "no-poverty",
+      "title": "No Poverty",
+      "image": "/images/1.png",
+      "description": "Eradicating poverty in all its forms is one of the most significant global challenges. Poverty encompasses not just the lack of income but also deprivation of essential services such as healthcare, education, and clean water, along with social exclusion and lack of participation in decision-making processes. This goal aims to ensure equal access to economic resources, financial services, property, and inheritance rights for all, particularly for women, children, and marginalized communities. It emphasizes the need to create sustainable economic growth, promote social protection systems, and improve resilience to natural disasters, climate change, and economic shocks. Through international collaboration, investments in human capital, and sustainable infrastructure, this initiative strives to eliminate extreme poverty by 2030 and reduce inequalities by creating opportunities for everyone, regardless of their background or circumstances. The focus is on fostering inclusive growth that benefits everyone, creating a fairer society where no one is left behind.",
+      "charts": [
+        {
+          "title": "Global Poverty Rate (2010-2025)",
+          "data": {
+            "years": [2010, 2015, 2020, 2025],
+            "values": [15, 12, 10, 8],
+            "unit": "percentage"
+          }
+        },
+        {
+          "title": "Poverty Rate by Region (2025)",
+          "data": {
+            "regions": ["Africa", "Asia", "Latin America", "Europe"],
+            "values": [40, 20, 15, 5],
+            "unit": "percentage"
+          }
         }
-      },
-      {
-        "title": "Poverty Rate by Region",
-        "data": {
-          "regions": ["Africa", "Asia", "Latin America", "Europe"],
-          "values": [40, 20, 15, 5]
+      ],
+      "government_initiatives": [
+        "National Rural Livelihoods Mission (NRLM) to improve rural incomes.",
+        "Pradhan Mantri Awas Yojana for affordable housing.",
+        "Direct Benefit Transfer (DBT) to streamline welfare services.",
+        "Social safety nets to protect vulnerable populations."
+      ],
+      "individual_actions": [
+        "Contribute to poverty alleviation programs.",
+        "Encourage local economic growth by supporting small businesses.",
+        "Volunteer at community organizations fighting poverty."
+      ],
+      "global_initiatives": [
+        {
+          "organization": "World Bank",
+          "description": "Provides financial and technical aid to reduce poverty worldwide through targeted programs."
+        },
+        {
+          "organization": "United Nations",
+          "description": "Aims to eradicate extreme poverty by 2030 with global collaboration and investment."
+        },
+        {
+          "organization": "International Monetary Fund (IMF)",
+          "description": "Supports poverty reduction through financial stability and global monetary cooperation."
         }
-      }
-    ],
-    "government_initiatives": [
-      "The National Rural Livelihoods Mission (NRLM) aimed at increasing the income of rural households.",
-      "Pradhan Mantri Awas Yojana for affordable housing.",
-      "Direct Benefit Transfer (DBT) to improve welfare services."
-    ],
-    "individual_actions": [
-      "Donate to credible poverty alleviation programs.",
-      "Support local businesses to encourage economic growth in your community.",
-      "Volunteer at local shelters or organizations fighting poverty."
-    ],
-    "other_initiatives": [
-      {
-        "organization": "World Bank",
-        "description": "Provides financial and technical assistance to developing countries to reduce poverty."
-      },
-      {
-        "organization": "United Nations",
-        "description": "Global programs to eradicate extreme poverty by 2030."
-      }
-    ],
-    "solutions": [
-      "Empowering women through education and employment opportunities.",
-      "Investing in agriculture and rural development.",
-      "Ensuring equal access to resources and services, like healthcare and education."
-    ]
-  },
-  {
-    "id": 2,
-    "slug": "zero-hunger",
-    "title": "Zero Hunger",
-    "image": "/images/2.png",
-    "description": "End hunger, achieve food security, improve nutrition, and promote sustainable agriculture.",
-    "charts": [
-      {
-        "title": "Global Malnutrition Rates",
-        "data": {
-          "years": [2010, 2015, 2020, 2025],
-          "values": [23, 18, 14, 10]
+      ],
+      "solutions": [
+        "Empower marginalized groups through education and equal job opportunities.",
+        "Invest in rural development and modernized agriculture.",
+        "Expand access to financial services, healthcare, and education for all."
+      ]
+    },
+    {
+      "id": 2,
+      "slug": "zero-hunger",
+      "title": "Zero Hunger",
+      "image": "/images/2.png",
+      "description": "Achieve food security, improve nutrition, and promote sustainable agriculture to end hunger globally.",
+      "charts": [
+        {
+          "title": "Global Malnutrition Rates (2010-2025)",
+          "data": {
+            "years": [2010, 2015, 2020, 2025],
+            "values": [23, 18, 14, 10],
+            "unit": "percentage"
+          }
+        },
+        {
+          "title": "Food Insecurity by Region (2025)",
+          "data": {
+            "regions": ["Africa", "Asia", "Latin America", "Europe"],
+            "values": [35, 22, 17, 8],
+            "unit": "percentage"
+          }
         }
-      },
-      {
-        "title": "Food Insecurity by Region",
-        "data": {
-          "regions": ["Africa", "Asia", "Latin America", "Europe"],
-          "values": [35, 22, 17, 8]
+      ],
+      "government_initiatives": [
+        "Midday Meal Scheme provides meals to school children to combat hunger.",
+        "National Food Security Act ensures subsidized food grains for the poor.",
+        "Pradhan Mantri Krishi Sinchai Yojana to enhance irrigation and agricultural productivity."
+      ],
+      "individual_actions": [
+        "Avoid food waste by planning meals efficiently.",
+        "Donate excess food to shelters or food banks.",
+        "Support sustainable farming by purchasing locally produced food."
+      ],
+      "global_initiatives": [
+        {
+          "organization": "World Food Programme (WFP)",
+          "description": "Delivers food assistance to vulnerable regions impacted by conflict and natural disasters."
+        },
+        {
+          "organization": "FAO",
+          "description": "Promotes sustainable agricultural practices to combat hunger and malnutrition."
+        },
+        {
+          "organization": "International Fund for Agricultural Development (IFAD)",
+          "description": "Supports rural development projects to increase food production and reduce poverty."
         }
-      }
-    ],
-    "government_initiatives": [
-      "The Midday Meal Scheme provides meals to school children.",
-      "National Food Security Act ensures food grains at subsidized prices.",
-      "Pradhan Mantri Krishi Sinchai Yojana to improve irrigation and ensure food production."
-    ],
-    "individual_actions": [
-      "Reduce food waste by only buying what you need.",
-      "Donate surplus food to food banks or shelters.",
-      "Support local farmers by buying locally sourced food."
-    ],
-    "other_initiatives": [
-      {
-        "organization": "World Food Programme",
-        "description": "Provides food assistance to countries facing extreme hunger."
-      },
-      {
-        "organization": "FAO",
-        "description": "Helps countries achieve food security and ensure good nutrition for all."
-      }
-    ],
-    "solutions": [
-      "Improving agricultural productivity through innovation and technology.",
-      "Ensuring sustainable food production systems.",
-      "Implementing social safety nets to protect vulnerable populations."
-    ]
-  },
+      ],
+      "solutions": [
+        "Enhance agricultural productivity through innovative technology.",
+        "Implement policies for sustainable food production and distribution.",
+        "Provide social safety nets to protect people from hunger in crises."
+      ]
+    },
+    {
+      "id": 3,
+      "slug": "good-health-and-well-being",
+      "title": "Good Health and Well-Being",
+      "image": "/images/3.png",
+      "description": "Ensure healthy lives and promote well-being for all, focusing on universal health coverage and disease prevention.",
+      "charts": [
+        {
+          "title": "Global Life Expectancy (2010-2025)",
+          "data": {
+            "years": [2010, 2015, 2020, 2025],
+            "values": [68, 70, 72, 74],
+            "unit": "years"
+          }
+        },
+        {
+          "title": "Mortality Rate by Region (2025)",
+          "data": {
+            "regions": ["Africa", "Asia", "Latin America", "Europe"],
+            "values": [50, 40, 25, 15],
+            "unit": "deaths per 1000"
+          }
+        }
+      ],
+      "government_initiatives": [
+        "Ayushman Bharat provides health insurance for universal health coverage.",
+        "The National Health Mission to improve maternal and child health services.",
+        "Mission Indradhanush to boost vaccination coverage."
+      ],
+      "individual_actions": [
+        "Maintain a balanced diet and active lifestyle to promote health.",
+        "Get regular health check-ups and screenings.",
+        "Support and advocate for public health programs in your area."
+      ],
+      "global_initiatives": [
+        {
+          "organization": "World Health Organization (WHO)",
+          "description": "Leads international efforts to combat disease and improve global health standards."
+        },
+        {
+          "organization": "Doctors Without Borders (MSF)",
+          "description": "Provides medical assistance in areas of conflict and humanitarian crises."
+        },
+        {
+          "organization": "Global Fund",
+          "description": "Supports the fight against HIV/AIDS, tuberculosis, and malaria in low-income countries."
+        }
+      ],
+      "solutions": [
+        "Strengthen healthcare infrastructure, especially in underserved areas.",
+        "Promote preventive healthcare through vaccination and public health awareness.",
+        "Address mental health as a critical component of overall well-being."
+      ]
+    },
+  
+  
   {
     "id": 3,
     "slug": "good-health-and-well-being",
