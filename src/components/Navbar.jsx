@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Link, useLocation } from 'react-router-dom';
+import React, { useState } from "react";
+import { Link, useLocation } from "react-router-dom";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -26,14 +26,20 @@ const Navbar = () => {
       <div className="container mx-auto flex justify-between items-center p-4">
         {/* Logo */}
         <div className="text-3xl font-bold text-indigo-400">
-          <Link to="/" className="hover:text-yellow-400 transition-colors duration-300">
+          <Link
+            to="/"
+            className="hover:text-yellow-400 transition-colors duration-300"
+          >
             SDGs
           </Link>
         </div>
 
         {/* Hamburger Icon for Mobile */}
         <div className="md:hidden">
-          <button onClick={() => setIsOpen(!isOpen)} className="focus:outline-none">
+          <button
+            onClick={() => setIsOpen(!isOpen)}
+            className="focus:outline-none"
+          >
             <svg
               className="w-6 h-6 text-gray-100 transition-transform duration-300"
               fill="none"
@@ -45,7 +51,7 @@ const Navbar = () => {
                 strokeLinecap="round"
                 strokeLinejoin="round"
                 strokeWidth="2"
-                d={isOpen ? 'M6 18L18 6M6 6l12 12' : 'M4 6h16M4 12h16M4 18h16'}
+                d={isOpen ? "M6 18L18 6M6 6l12 12" : "M4 6h16M4 12h16M4 18h16"}
               />
             </svg>
           </button>
@@ -54,6 +60,24 @@ const Navbar = () => {
         {/* Links */}
         <div className={`hidden md:flex items-center space-x-6`}>
           {/* Dropdown for Hot Options */}
+
+          {/* Main Links */}
+          {mainLinks.map((link, index) => (
+            <Link
+              key={index}
+              to={link.path}
+              className={`block mt-4 md:mt-0 text-lg transition-colors duration-300 
+                ${
+                  location.pathname === link.path
+                    ? "text-indigo-400"
+                    : "hover:text-indigo-400"
+                }`}
+              onClick={() => setIsOpen(false)} // Close mobile menu on link click
+            >
+              {link.label}
+            </Link>
+          ))}
+
           <div className="relative">
             <button
               onClick={() => setIsDropdownOpen(!isDropdownOpen)}
@@ -78,25 +102,32 @@ const Navbar = () => {
               </div>
             )}
           </div>
-
-          {/* Main Links */}
-          {mainLinks.map((link, index) => (
-            <Link
-              key={index}
-              to={link.path}
-              className={`block mt-4 md:mt-0 text-lg transition-colors duration-300 
-                ${location.pathname === link.path ? 'text-indigo-400' : 'hover:text-indigo-400'}`}
-              onClick={() => setIsOpen(false)} // Close mobile menu on link click
-            >
-              {link.label}
-            </Link>
-          ))}
         </div>
       </div>
 
       {/* Mobile Menu */}
       {isOpen && (
         <div className="md:hidden bg-gray-800 px-4 pb-4 transition-all duration-300 ease-in-out">
+          
+
+          {/* Main Links for Mobile */}
+          {mainLinks.map((link, index) => (
+            <Link
+              key={index}
+              to={link.path}
+              className={`block py-2 text-lg transition-colors duration-300 
+                ${
+                  location.pathname === link.path
+                    ? "text-indigo-400"
+                    : "hover:text-indigo-400"
+                }`}
+              onClick={() => {
+                setIsOpen(false); // Close mobile menu on click
+              }}
+            >
+              {link.label}
+            </Link>
+          ))}
           <div className="relative">
             <button
               onClick={() => setIsDropdownOpen(!isDropdownOpen)}
@@ -122,21 +153,6 @@ const Navbar = () => {
               </div>
             )}
           </div>
-
-          {/* Main Links for Mobile */}
-          {mainLinks.map((link, index) => (
-            <Link
-              key={index}
-              to={link.path}
-              className={`block py-2 text-lg transition-colors duration-300 
-                ${location.pathname === link.path ? 'text-indigo-400' : 'hover:text-indigo-400'}`}
-              onClick={() => {
-                setIsOpen(false); // Close mobile menu on click
-              }}
-            >
-              {link.label}
-            </Link>
-          ))}
         </div>
       )}
     </nav>

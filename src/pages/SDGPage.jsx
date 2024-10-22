@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import sdgs from '../sdgs.json';
-import { Bar, Line } from 'react-chartjs-2';
+import { Bar } from 'react-chartjs-2';
 import { Chart as ChartJS, CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend, LineElement, PointElement } from 'chart.js';
 
 // Registering chart elements with ChartJS
@@ -60,7 +60,7 @@ const SDGPage = () => {
         <img
           src={sdg.image}
           alt={sdg.title}
-          className="w-full md:w-1/2 h-auto rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300"
+          className="w-100 md:w-1/3 h-auto m-5 rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300"
         />
         <div className="bg-gray-800 p-6 rounded-lg shadow-lg text-gray-300 flex-1">
           <p className="text-lg leading-relaxed">
