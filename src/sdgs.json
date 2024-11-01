@@ -4,7 +4,7 @@
     "slug": "no-poverty",
     "title": "No Poverty",
     "image": "/images/1.png",
-    "description": "End poverty in all its forms everywhere by ensuring equal access to economic resources and services.",
+    "description": "No poverty aims to eradicate extreme poverty and reduce poverty in all its forms everywhere. This involves ensuring everyone has access to basic needs such as food, shelter, education, and healthcare. Efforts focus on economic growth, social protection systems, and equal opportunities for all. Addressing poverty includes supporting vulnerable populations and creating sustainable livelihoods. Ultimately, no poverty is about building a world where everyone can lead a dignified and prosperous life.",
     "charts": [
       {
         "title": "Global Poverty Rate",
@@ -52,7 +52,7 @@
     "slug": "zero-hunger",
     "title": "Zero Hunger",
     "image": "/images/2.png",
-    "description": "End hunger, achieve food security, improve nutrition, and promote sustainable agriculture.",
+    "description": "Zero hunger aims to end hunger, achieve food security, and improve nutrition for all. It involves ensuring everyone has access to sufficient, safe, and nutritious food year-round. Efforts focus on promoting sustainable agriculture, supporting small-scale farmers, and reducing food waste. Addressing hunger also includes tackling malnutrition and ensuring resilient food systems. Ultimately, zero hunger is about creating a world where no one goes hungry and everyone has the food they need to thrive.",
     "charts": [
       {
         "title": "Global Malnutrition Rates",
@@ -100,7 +100,7 @@
     "slug": "good-health-and-well-being",
     "title": "Good Health and Well-Being",
     "image": "/images/3.png",
-    "description": "Ensure healthy lives and promote well-being for all at all ages.",
+    "description": "Good health and well-being ensure everyone has the chance to lead a healthy, fulfilling life. This involves access to quality healthcare, preventive measures, and support for mental health. Efforts focus on reducing health disparities, promoting healthy lifestyles, and ensuring safety from health risks. Adequate healthcare infrastructure and services are crucial for maintaining public health. Ultimately, it's about fostering a society where everyone can thrive physically, mentally, and socially.",
     "charts": [
       {
         "title": "Global Life Expectancy",
@@ -148,7 +148,7 @@
     "slug": "quality-education",
     "title": "Quality Education",
     "image": "/images/4.png",
-    "description": "Ensure inclusive and equitable quality education and promote lifelong learning opportunities for all.",
+    "description": "Quality education ensures all individuals have access to inclusive, equitable, and effective learning opportunities. It involves providing well-trained teachers, adequate resources, and safe learning environments. Efforts focus on fostering critical thinking, creativity, and lifelong learning skills. Ensuring quality education helps reduce inequalities and promotes sustainable development. Ultimately, it's about empowering individuals to reach their full potential and contribute positively to society.",
     "charts": [
       {
         "title": "Global Literacy Rates",
@@ -196,7 +196,7 @@
     "slug": "gender-equality",
     "title": "gender-equality",
     "image": "/images/5.png",
-    "description": "Gender equality is about ensuring that all individuals, regardless of gender, have equal rights, opportunities, and respect.",
+    "description": "Gender equality ensures everyone, regardless of gender, has equal rights, opportunities, and respect. It involves challenging stereotypes, eliminating discrimination, and promoting fair treatment in all aspects of life. Efforts focus on closing gaps in education, employment, and political representation. Empowering all genders contributes to a more just, inclusive, and prosperous society. Ultimately, gender equality benefits everyone and is essential for sustainable development.",
     "charts": [
       {
         "title": "some key statistics about gender equality over the years and projected into the future",
@@ -245,7 +245,7 @@
     "slug": "Clean water and sanitation",
     "title": "Clean water and sanitation",
     "image": "/images/6.png",
-    "description": "Clean water and sanitation mean ensuring everyone has access to safe drinking water and adequate sanitation facilities to promote health and prevent diseases.",
+    "description": "Clean water and sanitation ensure everyone has access to safe drinking water and proper sanitation facilities to promote health and prevent diseases. This involves improving water quality, enhancing water-use efficiency, and protecting water-related ecosystems. Efforts focus on providing safe and affordable drinking water, reducing pollution, and ensuring sustainable water management. Adequate sanitation facilities and hygiene practices are crucial for preventing the spread of illnesses. Ultimately, it's about safeguarding public health and creating a sustainable and equitable water future for all.",
     "charts": [
       {
         "title": "global progress in increasing access to clean water.",
@@ -307,7 +307,7 @@
     "slug": "Affordable and clean energy",
     "title": "Affordable and clean energy",
     "image": "/images/7.png",
-    "description": "Affordable and clean energy ensures everyone has access to sustainable, cost-effective power while protecting the environment.",
+    "description": "Affordable and clean energy ensures everyone has access to cost-effective, sustainable power sources like solar, wind, and hydropower. It involves transitioning from fossil fuels to renewables, improving energy efficiency, and promoting innovative technologies. These efforts reduce greenhouse gas emissions, combat climate change, and create green jobs. Ensuring reliable and clean energy supports economic growth and improves quality of life. Ultimately, it's about building a sustainable future where energy is accessible and environmentally friendly for all.",
     "charts": [
       {
         "title": "Global Data on Affordable and Clean Energy.",
@@ -354,7 +354,7 @@
     "slug": "Decent Work And Economic Growth",
     "title": "Decent Work And Economic Growth",
     "image": "/images/8.png",
-    "description": "Decent work and economic growth mean ensuring everyone has access to fair employment opportunities that drive sustainable economic progress.",
+    "description": "Decent work and economic growth involve creating employment opportunities that offer fair wages, safe working conditions, and social protection for all. It focuses on promoting inclusive economic growth that benefits everyone, reducing poverty and inequality. Supporting small and medium-sized enterprises (SMEs), fostering innovation, and ensuring labor rights are key. By investing in education and skills development, we can empower individuals to contribute to and benefit from economic progress. Ultimately, it's about building a sustainable economy that leaves no one behind.",
     "charts": [
       {
         "title": "Global Data on Decent Work and Economic Growth(GDP).",
@@ -429,7 +429,7 @@
     "slug": "INDUSTRY,INNOVATION,INFRASTRUCTURE",
     "title": "INDUSTRY,INNOVATION,INFRASTRUCTURE",
     "image": "/images/9.png",
-    "description": "Industry, innovation, and infrastructure drive sustainable economic growth and resilience by fostering modern industries, technological advancements, and robust infrastructure systems.",
+    "description": "Industry, innovation, and infrastructure drive sustainable economic growth by fostering modern industries, advancing technology, and developing resilient infrastructure. This includes investing in research and development, promoting sustainable industrial practices, and building robust transportation and communication networks. These efforts enhance productivity, create jobs, and improve living standards. Supporting innovation and infrastructure ensures long-term resilience and competitiveness. Ultimately, it's about creating a dynamic and sustainable economy that benefits all.",
     "charts": [
       {
         "title": "Global Data on Industry, Innovation, and Infrastructure(Industrial Production Growth).",
@@ -503,7 +503,7 @@
     "slug": "REDUCED INEQUALITY",
     "title": "REDUCED INEQUALITY",
     "image": "/images/10.png",
-    "description": "Reduced inequality means ensuring fair opportunities and outcomes for all individuals, regardless of their background or status.",
+    "description": "Reducing inequality focuses on ensuring fair opportunities and outcomes for everyone, regardless of their background or circumstances. It involves addressing income disparities, improving access to education and healthcare, and promoting social inclusion. Efforts include implementing policies that protect marginalized groups and ensure equal rights. By tackling discrimination and supporting equitable growth, we can create a more just and inclusive society. Ultimately, reducing inequality helps everyone thrive and contributes to sustainable development.",
     "charts": [
       {
         "title": "Global Data on Reduced Inequality",
@@ -550,7 +550,7 @@
     "slug": "SUSTAINABLE CITIES AND COMMUNITIES",
     "title": "SUSTAINABLE CITIES AND COMMUNITIES",
     "image": "/images/11.png",
-    "description": "Sustainable cities and communities ensure that everyone can thrive in safe, inclusive, and environmentally friendly urban areas.",
+    "description": "Sustainable cities and communities focus on creating urban areas that provide a high quality of life while minimizing environmental impact. This involves integrating green spaces, promoting public transportation, and implementing efficient waste management systems. Sustainable cities also prioritize affordable housing, renewable energy, and resilient infrastructure to support diverse populations. Engaging communities in planning and decision-making ensures that development benefits everyone. Ultimately, it's about building inclusive, safe, and environmentally friendly urban environments for present and future generations.",
     "charts": [
       {
         "title": "Global Data on Sustainable Cities and Communities",
@@ -597,7 +597,7 @@
     "slug": "RESPONSIBLE,CONSUMPTION,AND PRODUCTION",
     "title": "RESPONSIBLE,CONSUMPTION,AND PRODUCTION",
     "image": "/images/12.png",
-    "description": "Responsible consumption and production involve using resources efficiently to minimize waste, reduce environmental impact, and ensure sustainability for future generations.",
+    "description": "Responsible consumption and production focus on using resources efficiently to minimize waste and environmental impact while ensuring sustainability for future generations. It involves promoting sustainable practices throughout the production and consumption lifecycle, from designing eco-friendly products to recycling and reusing materials. Encouraging consumers and industries to adopt greener habits and technologies is key. By reducing pollution and conserving resources, we can protect the environment and improve quality of life. Ultimately, it's about creating a circular economy where every resource is valued and reused.",
     "charts": [
       {
         "title": "Global Data on Responsible,Consumption,and Production.",
@@ -643,7 +643,7 @@
     "slug": "CLIMATE ACTION",
     "title": "CLIMATE ACTION",
     "image": "/images/13.png",
-    "description": "Climate Action refers to efforts aimed at reducing greenhouse gas emissions, enhancing climate resilience, and mitigating the impacts of climate change to protect the planet for future generations.",
+    "description": "Climate action involves efforts to mitigate and adapt to the impacts of climate change by reducing greenhouse gas emissions, enhancing resilience, and promoting sustainable practices. This includes transitioning to renewable energy, improving energy efficiency, and protecting forests and other carbon sinks. Climate action also focuses on developing and implementing policies to support these efforts and engaging communities in climate solutions. By taking proactive measures, we can limit global warming, reduce vulnerabilities, and protect the planet for future generations. Ultimately, climate action is about securing a sustainable and resilient future for all.",
     "charts": [
       {
         "title": "Global Data on Climate Action(in BMT of co2).",
@@ -689,7 +689,7 @@
     "slug": "LIFE BELOW WATER",
     "title": "LIFE BELOW WATER",
     "image": "/images/14.png",
-    "description": "Life Below Water focuses on the sustainable management and protection of oceans, seas, and marine resources to ensure their health and resilience for future generations.",
+    "description": "Life below water involves protecting and sustainably managing marine ecosystems, ensuring that oceans, seas, and marine resources are conserved. This includes addressing pollution, overfishing, and habitat destruction to maintain healthy and productive marine environments. Efforts focus on preserving biodiversity, restoring fish stocks, and protecting coral reefs and other vital habitats. It also involves mitigating the impacts of climate change, such as ocean acidification and rising sea levels. Healthy marine ecosystems are crucial for supporting human livelihoods, food security, and maintaining ecological balance.",
     "charts": [
       {
         "title": "Global Data on LIFE BELOW WATER",
@@ -735,7 +735,7 @@
     "slug": "LIFE ON LAND",
     "title": "LIFE ON LAND",
     "image": "/images/15.png",
-    "description": "Life on Land aims to protect, restore, and promote the sustainable use of terrestrial ecosystems, manage forests sustainably, combat desertification, halt and reverse land degradation, and halt biodiversity loss.",
+    "description":"Life on land involves safeguarding ecosystems and biodiversity, ensuring that terrestrial environments thrive. This includes protecting forests, combating desertification, and halting land degradation. It also involves conserving species and their habitats, promoting sustainable use of land resources, and addressing the impacts of climate change. Healthy land ecosystems are crucial for sustaining human life, providing resources, and maintaining ecological balance. Prioritizing life on land helps secure a sustainable and resilient future for all.",
     "charts": [
       {
         "title": "Global Data on Life on Land",
@@ -781,7 +781,7 @@
     "slug": "PEACE,JUSTICE AND STRONG INSTITUTIONS",
     "title": "PEACE,JUSTICE AND STRONG INSTITUTIONS",
     "image": "/images/16.png",
-    "description": "Peace, Justice, and Strong Institutions aims to promote peaceful, inclusive societies, provide access to justice for all, and build accountable, effective institutions at all levels.",
+    "description":"Peace, justice, and strong institutions are crucial for fostering inclusive societies where everyone feels safe and has equal access to opportunities. It involves ensuring accountability, transparency, and the rule of law, while protecting human rights and fighting corruption. Strong institutions uphold justice and provide a foundation for sustainable development. Promoting peace and justice helps prevent conflict and promotes social cohesion. Ultimately, these elements are essential for building a fair and resilient society where everyone can thrive.",
     "charts": [
       {
         "title": "Global Data on Affordable and Clean Energy.",
@@ -828,7 +828,7 @@
     "slug": "PARTNERSHIPS FOR THE GOALS",
     "title": "PARTNERSHIPS FOR THE GOALS",
     "image": "/images/17.png",
-    "description": "Partnerships for the Goals (SDG 17) focuses on strengthening global collaboration and resource mobilization to achieve sustainable development across all sectors.",
+    "description":"Partnership for the Goals is about leveraging global cooperation to achieve sustainable development. It emphasizes the importance of combining resources, knowledge, and expertise from various sectors to address global challenges. These partnerships involve governments, the private sector, and civil society working together to promote economic growth, social inclusion, and environmental sustainability. By fostering collaboration, we can create innovative solutions and ensure no one is left behind. Ultimately, it's about building a more equitable, resilient, and sustainable world for all.",
     "charts": [
       {
         "title": "Global Data on Partnerships for the Goals(in billions)",
